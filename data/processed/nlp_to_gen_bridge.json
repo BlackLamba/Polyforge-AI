@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "original_query": "Нужен полимер: температура плавления около 430 К, плотность не более 1.15 г/см³, модуль Юнга не менее 1800 МПа, проницаемость для CO2 порядка 50 Баррер, кислородный индекс от 25 до 35",
+    "n_user_specified": 4,
+    "n_auto_filled": 33
+  },
+  "user_specified": {
+    "Tm": {
+      "target_value": 430.0,
+      "min": 365.5,
+      "max": 494.49999999999994,
+      "category": "low",
+      "extracted_name": "температура плавления",
+      "extracted_value": "430",
+      "user_specified": true
+    },
+    "rho": {
+      "target_value": 1.15,
+      "min": 0.9774999999999999,
+      "max": 1.3224999999999998,
+      "category": "low",
+      "extracted_name": "плотность",
+      "extracted_value": "1.15",
+      "user_specified": true
+    },
+    "YM": {
+      "target_value": 1800.0,
+      "min": 1530.0,
+      "max": 2070.0,
+      "category": "low",
+      "extracted_name": "модуль Юнга",
+      "extracted_value": "1800",
+      "user_specified": true
+    },
+    "LOI": {
+      "target_value": 25.0,
+      "min": 21.25,
+      "max": 28.749999999999996,
+      "category": "low",
+      "extracted_name": "кислородный индекс",
+      "extracted_value": "25",
+      "user_specified": true
+    }
+  },
+  "auto_filled": {
+    "Egc": {
+      "target_value": 3.4015884345,
+      "min": 3.177873272,
+      "max": 3.6253035970000003,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Egb": {
+      "target_value": 3.0229401865,
+      "min": 2.7763198840000003,
+      "max": 3.269560489,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Eib": {
+      "target_value": 3.3441815034999998,
+      "min": 3.2162608809999997,
+      "max": 3.4721021260000002,
+      "category": "medium",
+      "user_specified": false
+    },
+    "CED": {
+      "target_value": 130.3017051,
+      "min": 123.5147369,
+      "max": 137.0886733,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Ei": {
+      "target_value": 5.8165049835,
+      "min": 5.699227769,
+      "max": 5.933782198,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Eea": {
+      "target_value": 2.269707906,
+      "min": 2.130845946,
+      "max": 2.408569866,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Eat": {
+      "target_value": -6.0486321515,
+      "min": -6.101364,
+      "max": -5.995900303,
+      "category": "medium",
+      "user_specified": false
+    },
+    "nc": {
+      "target_value": 1.9435668824999999,
+      "min": 1.9009329,
+      "max": 1.986200865,
+      "category": "medium",
+      "user_specified": false
+    },
+    "ne": {
+      "target_value": 1.6322342,
+      "min": 1.609643434,
+      "max": 1.654824966,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Xc": {
+      "target_value": 40.444790049999995,
+      "min": 35.82206812,
+      "max": 45.06751198,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Xe": {
+      "target_value": 37.325328135,
+      "min": 34.042877409999996,
+      "max": 40.60777886,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_6.0": {
+      "target_value": 3.3930502145,
+      "min": 3.23724304,
+      "max": 3.548857389,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epsc": {
+      "target_value": 4.4277699639999994,
+      "min": 4.237011,
+      "max": 4.618528928,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_3.0": {
+      "target_value": 3.6517037495,
+      "min": 3.457667369,
+      "max": 3.8457401300000003,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_1.78": {
+      "target_value": 3.9091995309999996,
+      "min": 3.696189742,
+      "max": 4.12220932,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_15.0": {
+      "target_value": 2.6345987849999997,
+      "min": 2.56598297,
+      "max": 2.7032146,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_4.0": {
+      "target_value": 3.546349151,
+      "min": 3.3669794719999997,
+      "max": 3.72571883,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_5.0": {
+      "target_value": 3.4705092825,
+      "min": 3.3040055649999998,
+      "max": 3.637013,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_2.0": {
+      "target_value": 3.8465627065,
+      "min": 3.636858773,
+      "max": 4.05626664,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_9.0": {
+      "target_value": 3.1152504834999997,
+      "min": 2.982149136,
+      "max": 3.248351831,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epse_7.0": {
+      "target_value": 3.3070952,
+      "min": 3.1604078,
+      "max": 3.4537826,
+      "category": "medium",
+      "user_specified": false
+    },
+    "epsb": {
+      "target_value": 11.967563485,
+      "min": 8.951407,
+      "max": 14.983719970000001,
+      "category": "medium",
+      "user_specified": false
+    },
+    "TSb": {
+      "target_value": 84.81429936,
+      "min": 77.3708254,
+      "max": 92.25777332,
+      "category": "medium",
+      "user_specified": false
+    },
+    "TSy": {
+      "target_value": 68.09159675000001,
+      "min": 63.4366902,
+      "max": 72.7465033,
+      "category": "medium",
+      "user_specified": false
+    },
+    "permCH4": {
+      "target_value": 0.81074242295,
+      "min": 0.40411251890000005,
+      "max": 1.2173723269999999,
+      "category": "medium",
+      "user_specified": false
+    },
+    "permCO2": {
+      "target_value": 11.9275947545,
+      "min": 6.317217609,
+      "max": 17.5379719,
+      "category": "medium",
+      "user_specified": false
+    },
+    "permH2": {
+      "target_value": 25.831650455000002,
+      "min": 16.11040655,
+      "max": 35.55289436,
+      "category": "medium",
+      "user_specified": false
+    },
+    "permO2": {
+      "target_value": 3.1294567265,
+      "min": 1.6790140120000001,
+      "max": 4.579899441,
+      "category": "medium",
+      "user_specified": false
+    },
+    "permN2": {
+      "target_value": 0.78368848075,
+      "min": 0.4045570615000001,
+      "max": 1.1628199,
+      "category": "medium",
+      "user_specified": false
+    },
+    "permHe": {
+      "target_value": 23.522176395000002,
+      "min": 15.30870709,
+      "max": 31.735645700000006,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Cp": {
+      "target_value": 1.2617014654999998,
+      "min": 1.224701967,
+      "max": 1.298700964,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Td": {
+      "target_value": 715.4857623,
+      "min": 686.803635,
+      "max": 744.1678896,
+      "category": "medium",
+      "user_specified": false
+    },
+    "Tg": {
+      "target_value": 506.24238660000003,
+      "min": 480.1603,
+      "max": 532.3244732,
+      "category": "medium",
+      "user_specified": false
+    }
+  }
+}
