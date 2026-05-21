@@ -1,0 +1,113 @@
+{
+    "rho": {
+        "target_value": 1.2900609665
+    },
+    "Egc": {
+        "target_value": 3.211481670478881
+    },
+    "Egb": {
+        "target_value": 2.788874707995503
+    },
+    "Eib": {
+        "target_value": 3.2762461686720044
+    },
+    "CED": {
+        "target_value": 128.11776926530177
+    },
+    "Ei": {
+        "target_value": 5.720303989734721
+    },
+    "Eea": {
+        "target_value": 2.1652036464267286
+    },
+    "Eat": {
+        "target_value": -6.030143147961573
+    },
+    "nc": {
+        "target_value": 1.9781519794731393
+    },
+    "ne": {
+        "target_value": 1.6149727262570082
+    },
+    "Xc": {
+        "target_value": 35.86942576898165
+    },
+    "Xe": {
+        "target_value": 39.628546972580786
+    },
+    "epse_6.0": {
+        "target_value": 3.342996039621835
+    },
+    "epsc": {
+        "target_value": 4.253438934125606
+    },
+    "epse_3.0": {
+        "target_value": 3.6974614659120957
+    },
+    "epse_1.78": {
+        "target_value": 3.943301415733093
+    },
+    "epse_15.0": {
+        "target_value": 2.5796712057855546
+    },
+    "epse_4.0": {
+        "target_value": 3.389022324088734
+    },
+    "epse_5.0": {
+        "target_value": 3.5122540973957865
+    },
+    "epse_2.0": {
+        "target_value": 3.710265213617191
+    },
+    "epse_9.0": {
+        "target_value": 3.138131703927767
+    },
+    "epse_7.0": {
+        "target_value": 3.44411132114662
+    },
+    "epsb": {
+        "target_value": 11.545685215205232
+    },
+    "TSb": {
+        "target_value": 82.4468921512337
+    },
+    "TSy": {
+        "target_value": 66.9671862358788
+    },
+    "YM": {
+        "target_value": 2117.594276332328
+    },
+    "permCH4": {
+        "target_value": 0.5141866566426153
+    },
+    "permCO2": {
+        "target_value": 9.207803654888533
+    },
+    "permH2": {
+        "target_value": 27.02535276696303
+    },
+    "permO2": {
+        "target_value": 3.5384863609890074
+    },
+    "permN2": {
+        "target_value": 0.7193389000244573
+    },
+    "permHe": {
+        "target_value": 24.47791562732199
+    },
+    "Cp": {
+        "target_value": 1.2354417004518947
+    },
+    "Td": {
+        "target_value": 735.7686365209977
+    },
+    "Tg": {
+        "target_value": 487.6298293426674
+    },
+    "Tm": {
+        "target_value": 598.5834651494167
+    },
+    "LOI": {
+        "target_value": 32.8954303234622
+    }
+}

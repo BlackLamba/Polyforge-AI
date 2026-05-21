@@ -1,0 +1,3531 @@
+[
+  {
+    "text": "Нужен полимер с температурой стеклования 120°C и модулем упругости 3 ГПа",
+    "entities": [
+      {"start": 20, "end": 43, "label": "PROPERTY", "value": "Tg"},
+      {"start": 44, "end": 49, "label": "VALUE"},
+      {"start": 54, "end": 71, "label": "PROPERTY", "value": "YM"},
+      {"start": 72, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу материал с высокой теплоёмкостью и низкой плотностью",
+    "entities": [
+      {"start": 16, "end": 34, "label": "PROPERTY", "value": "Cp"},
+      {"start": 13, "end": 20, "label": "QUALIFIER"},
+      {"start": 39, "end": 53, "label": "PROPERTY", "value": "rho"},
+      {"start": 36, "end": 41, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер для 3D-печати: Tg не ниже 100°C, прочность на разрыв хотя бы 60 МПа",
+    "entities": [
+      {"start": 22, "end": 24, "label": "PROPERTY", "value": "Tg"},
+      {"start": 33, "end": 38, "label": "VALUE"},
+      {"start": 40, "end": 60, "label": "PROPERTY", "value": "TSb"},
+      {"start": 70, "end": 76, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужна пластмасса с хорошей термостойкостью – температура деструкции выше 400°C",
+    "entities": [
+      {"start": 18, "end": 41, "label": "PROPERTY", "value": "Td"},
+      {"start": 25, "end": 31, "label": "QUALIFIER"},
+      {"start": 56, "end": 80, "label": "PROPERTY", "value": "Td"},
+      {"start": 81, "end": 86, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Какие полимеры имеют плотность менее 1 г/см³ и кислородный индекс > 25%?",
+    "entities": [
+      {"start": 19, "end": 28, "label": "PROPERTY", "value": "rho"},
+      {"start": 34, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 63, "label": "PROPERTY", "value": "LOI"},
+      {"start": 67, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с температурой плавления около 220°C и прочностью на разрыв 50-60 МПа",
+    "entities": [
+      {"start": 20, "end": 42, "label": "PROPERTY", "value": "Tm"},
+      {"start": 49, "end": 54, "label": "VALUE"},
+      {"start": 59, "end": 79, "label": "PROPERTY", "value": "TSb"},
+      {"start": 80, "end": 88, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой проницаемостью для CO2 (менее 5 Баррер) и высокой твёрдостью",
+    "entities": [
+      {"start": 15, "end": 42, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"},
+      {"start": 44, "end": 55, "label": "VALUE"},
+      {"start": 60, "end": 70, "label": "PROPERTY", "value": "TSb"},
+      {"start": 57, "end": 64, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с минимальной усадкой и Tg от 150 до 180°C",
+    "entities": [
+      {"start": 18, "end": 35, "label": "PROPERTY", "value": "Xc"},
+      {"start": 14, "end": 23, "label": "QUALIFIER"},
+      {"start": 39, "end": 41, "label": "PROPERTY", "value": "Tg"},
+      {"start": 45, "end": 56, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен материал, который не плавится до 350°C и обладает высокой теплоёмкостью (Cp > 2 Дж/(г·К))",
+    "entities": [
+      {"start": 32, "end": 54, "label": "PROPERTY", "value": "Tm"},
+      {"start": 58, "end": 63, "label": "VALUE"},
+      {"start": 79, "end": 93, "label": "PROPERTY", "value": "Cp"},
+      {"start": 74, "end": 80, "label": "QUALIFIER"},
+      {"start": 95, "end": 97, "label": "PROPERTY", "value": "Cp"},
+      {"start": 100, "end": 111, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Термостойкий полимер: Td > 400°C, LOI не менее 28%",
+    "entities": [
+      {"start": 19, "end": 21, "label": "PROPERTY", "value": "Td"},
+      {"start": 24, "end": 29, "label": "VALUE"},
+      {"start": 31, "end": 34, "label": "PROPERTY", "value": "LOI"},
+      {"start": 43, "end": 46, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как PET, но с более высокой термостойкостью и меньшей плотностью (1.1-1.2 г/см³)",
+    "entities": [
+      {"start": 42, "end": 56, "label": "PROPERTY", "value": "Td"},
+      {"start": 34, "end": 42, "label": "QUALIFIER"},
+      {"start": 61, "end": 70, "label": "PROPERTY", "value": "rho"},
+      {"start": 72, "end": 84, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с кислородным индексом выше 30% и прочностью на разрыв не менее 70 МПа",
+    "entities": [
+      {"start": 10, "end": 27, "label": "PROPERTY", "value": "LOI"},
+      {"start": 33, "end": 36, "label": "VALUE"},
+      {"start": 41, "end": 61, "label": "PROPERTY", "value": "TSb"},
+      {"start": 71, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу прозрачный полимер с диэлектрической проницаемостью на 2 ГГц не более 2.5",
+    "entities": [
+      {"start": 29, "end": 60, "label": "PROPERTY", "value": "epse_2.0"},
+      {"start": 64, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для упаковки: низкая проницаемость по кислороду (<2 Баррер) и высокая гибкость",
+    "entities": [
+      {"start": 28, "end": 55, "label": "PROPERTY", "value": "permO2"},
+      {"start": 25, "end": 30, "label": "QUALIFIER"},
+      {"start": 57, "end": 64, "label": "VALUE"},
+      {"start": 69, "end": 77, "label": "PROPERTY", "value": "YM"},
+      {"start": 66, "end": 73, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который выдерживает автоклавирование (Tg > 130°C) и обладает химической стойкостью",
+    "entities": [
+      {"start": 28, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 49, "end": 55, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для медицинских применений: биоразлагаемый, температура плавления 60-80°C, низкая токсичность",
+    "entities": [
+      {"start": 49, "end": 71, "label": "PROPERTY", "value": "Tm"},
+      {"start": 72, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с модулем упругости 2.5 ГПа и плотностью около 1.0 г/см³",
+    "entities": [
+      {"start": 15, "end": 32, "label": "PROPERTY", "value": "YM"},
+      {"start": 33, "end": 39, "label": "VALUE"},
+      {"start": 44, "end": 53, "label": "PROPERTY", "value": "rho"},
+      {"start": 60, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужна высокая кристалличность (Xc > 60%) и хорошая текучесть расплава",
+    "entities": [
+      {"start": 7, "end": 27, "label": "PROPERTY", "value": "Xc"},
+      {"start": 5, "end": 12, "label": "QUALIFIER"},
+      {"start": 29, "end": 33, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой диэлектрической проницаемостью на 9 ГГц (менее 2.2) и Tg выше 200°C",
+    "entities": [
+      {"start": 10, "end": 41, "label": "PROPERTY", "value": "epse_9.0"},
+      {"start": 8, "end": 13, "label": "QUALIFIER"},
+      {"start": 45, "end": 56, "label": "VALUE"},
+      {"start": 61, "end": 63, "label": "PROPERTY", "value": "Tg"},
+      {"start": 69, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с максимальной прочностью на разрыв (не менее 100 МПа) и Tg > 150°C",
+    "entities": [
+      {"start": 17, "end": 37, "label": "PROPERTY", "value": "TSb"},
+      {"start": 39, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 57, "label": "PROPERTY", "value": "Tg"},
+      {"start": 61, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой теплостойкостью – температура деструкции > 380°C",
+    "entities": [
+      {"start": 15, "end": 29, "label": "PROPERTY", "value": "Td"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 32, "end": 56, "label": "PROPERTY", "value": "Td"},
+      {"start": 59, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для электроники: низкая диэлектрическая проницаемость (ε < 2.5 на 1.78 ГГц), высокая электрическая прочность (более 20 кВ/мм)",
+    "entities": [
+      {"start": 22, "end": 53, "label": "PROPERTY", "value": "epse_1.78"},
+      {"start": 20, "end": 25, "label": "QUALIFIER"},
+      {"start": 55, "end": 62, "label": "VALUE"},
+      {"start": 66, "end": 76, "label": "PROPERTY", "value": "epsb"},
+      {"start": 63, "end": 71, "label": "QUALIFIER"},
+      {"start": 78, "end": 96, "label": "PROPERTY", "value": "epsb"},
+      {"start": 98, "end": 106, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой плотностью (<0.95 г/см³) и модулем Юнга не менее 1.5 ГПа",
+    "entities": [
+      {"start": 20, "end": 29, "label": "PROPERTY", "value": "rho"},
+      {"start": 17, "end": 22, "label": "QUALIFIER"},
+      {"start": 31, "end": 43, "label": "VALUE"},
+      {"start": 48, "end": 60, "label": "PROPERTY", "value": "YM"},
+      {"start": 71, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с максимальным кислородным индексом (LOI > 35%) и температурой стеклования около 250°C",
+    "entities": [
+      {"start": 12, "end": 29, "label": "PROPERTY", "value": "LOI"},
+      {"start": 10, "end": 18, "label": "QUALIFIER"},
+      {"start": 31, "end": 36, "label": "VALUE"},
+      {"start": 41, "end": 64, "label": "PROPERTY", "value": "Tg"},
+      {"start": 71, "end": 76, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для мембран с высокой проницаемостью по CO2 и низкой по CH4",
+    "entities": [
+      {"start": 22, "end": 49, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 19, "end": 26, "label": "QUALIFIER"},
+      {"start": 53, "end": 60, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 50, "end": 54, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Какие полимеры обладают плотностью около 1.2 г/см³ и температурой плавления 160-180°C?",
+    "entities": [
+      {"start": 22, "end": 31, "label": "PROPERTY", "value": "rho"},
+      {"start": 38, "end": 46, "label": "VALUE"},
+      {"start": 51, "end": 73, "label": "PROPERTY", "value": "Tm"},
+      {"start": 74, "end": 82, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с превосходной адгезией, низкой усадкой и Tg > 100°C",
+    "entities": [
+      {"start": 30, "end": 46, "label": "PROPERTY", "value": "Xc"},
+      {"start": 27, "end": 32, "label": "QUALIFIER"},
+      {"start": 51, "end": 53, "label": "PROPERTY", "value": "Tg"},
+      {"start": 57, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой электрической прочностью (более 25 кВ/мм) и низкой диэлектрической проницаемостью на 5 ГГц",
+    "entities": [
+      {"start": 12, "end": 36, "label": "PROPERTY", "value": "epsb"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 38, "end": 46, "label": "VALUE"},
+      {"start": 51, "end": 82, "label": "PROPERTY", "value": "epse_5.0"},
+      {"start": 48, "end": 53, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой проницаемостью по гелию (He) и водороду (H2)",
+    "entities": [
+      {"start": 18, "end": 47, "label": "PROPERTY", "value": "permHe"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 49, "end": 56, "label": "PROPERTY", "value": "permH2"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который можно стерилизовать паром (Tg > 130°C) и имеет модуль Юнга около 3 ГПа",
+    "entities": [
+      {"start": 22, "end": 44, "label": "PROPERTY", "value": "Tg"},
+      {"start": 46, "end": 51, "label": "VALUE"},
+      {"start": 63, "end": 75, "label": "PROPERTY", "value": "YM"},
+      {"start": 82, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для оптики: высокий коэффициент пропускания, низкая плотность (<1.1 г/см³), Tg > 150°C",
+    "entities": [
+      {"start": 47, "end": 56, "label": "PROPERTY", "value": "rho"},
+      {"start": 44, "end": 49, "label": "QUALIFIER"},
+      {"start": 58, "end": 66, "label": "VALUE"},
+      {"start": 69, "end": 71, "label": "PROPERTY", "value": "Tg"},
+      {"start": 75, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой твёрдостью по Шору, но низкой плотностью (менее 0.9 г/см³)",
+    "entities": [
+      {"start": 16, "end": 37, "label": "PROPERTY", "value": "TSb"},
+      {"start": 13, "end": 19, "label": "QUALIFIER"},
+      {"start": 45, "end": 54, "label": "PROPERTY", "value": "rho"},
+      {"start": 42, "end": 47, "label": "QUALIFIER"},
+      {"start": 56, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с хорошей химической стойкостью и температурой деструкции выше 350°C",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "Td"},
+      {"start": 16, "end": 23, "label": "QUALIFIER"},
+      {"start": 50, "end": 74, "label": "PROPERTY", "value": "Td"},
+      {"start": 80, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной адгезией к металлам, Tg > 120°C, и прочностью на разрыв не менее 80 МПа",
+    "entities": [
+      {"start": 16, "end": 34, "label": "PROPERTY", "value": "Tg"},
+      {"start": 13, "end": 20, "label": "QUALIFIER"},
+      {"start": 38, "end": 40, "label": "PROPERTY", "value": "Tg"},
+      {"start": 44, "end": 49, "label": "VALUE"},
+      {"start": 55, "end": 75, "label": "PROPERTY", "value": "TSb"},
+      {"start": 85, "end": 91, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для 3D-печати: низкая усадка, температура стеклования 80-100°C, прочность на изгиб > 70 МПа",
+    "entities": [
+      {"start": 19, "end": 35, "label": "PROPERTY", "value": "Xc"},
+      {"start": 16, "end": 21, "label": "QUALIFIER"},
+      {"start": 37, "end": 60, "label": "PROPERTY", "value": "Tg"},
+      {"start": 61, "end": 68, "label": "VALUE"},
+      {"start": 70, "end": 89, "label": "PROPERTY", "value": "TSb"},
+      {"start": 93, "end": 99, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, который не поддерживает горение (LOI > 30%), с минимальным дымовыделением",
+    "entities": [
+      {"start": 37, "end": 42, "label": "PROPERTY", "value": "LOI"},
+      {"start": 45, "end": 48, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с высокой прочностью на сжатие и модулем упругости около 4 ГПа",
+    "entities": [
+      {"start": 21, "end": 43, "label": "PROPERTY", "value": "TSb"},
+      {"start": 17, "end": 24, "label": "QUALIFIER"},
+      {"start": 48, "end": 65, "label": "PROPERTY", "value": "YM"},
+      {"start": 72, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низким коэффициентом трения, высокой износостойкостью и Tg > 180°C",
+    "entities": [
+      {"start": 42, "end": 58, "label": "PROPERTY", "value": "TSb"},
+      {"start": 38, "end": 45, "label": "QUALIFIER"},
+      {"start": 63, "end": 65, "label": "PROPERTY", "value": "Tg"},
+      {"start": 69, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер для шестерён: прочность на разрыв > 90 МПа, модуль упругости около 3.5 ГПа, Tg > 160°C",
+    "entities": [
+      {"start": 22, "end": 42, "label": "PROPERTY", "value": "TSb"},
+      {"start": 45, "end": 51, "label": "VALUE"},
+      {"start": 53, "end": 70, "label": "PROPERTY", "value": "YM"},
+      {"start": 77, "end": 83, "label": "VALUE"},
+      {"start": 85, "end": 87, "label": "PROPERTY", "value": "Tg"},
+      {"start": 91, "end": 96, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который эксплуатируется при низких температурах (Tg < -50°C) и имеет хорошую гибкость",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 55, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой диэлектрической проницаемостью на частоте 4 ГГц (ε > 6) и низкими потерями",
+    "entities": [
+      {"start": 12, "end": 43, "label": "PROPERTY", "value": "epse_4.0"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 47, "end": 54, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей стойкостью к УФ-излучению, Tg > 130°C и проницаемостью по кислороду < 3 Баррер",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 56, "end": 61, "label": "VALUE"},
+      {"start": 66, "end": 93, "label": "PROPERTY", "value": "permO2"},
+      {"start": 96, "end": 103, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для литья под давлением: низкая вязкость расплава, температура плавления 200-220°C",
+    "entities": [
+      {"start": 33, "end": 51, "label": "PROPERTY", "value": "Tm"},
+      {"start": 30, "end": 35, "label": "QUALIFIER"},
+      {"start": 53, "end": 75, "label": "PROPERTY", "value": "Tm"},
+      {"start": 76, "end": 84, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой энергией поверхности, высокой гидрофобностью и LOI > 28%",
+    "entities": [
+      {"start": 14, "end": 35, "label": "PROPERTY", "value": "CED"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 58, "end": 61, "label": "PROPERTY", "value": "LOI"},
+      {"start": 65, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с максимальной температурой эксплуатации 250°C и модулем упругости не менее 5 ГПа",
+    "entities": [
+      {"start": 18, "end": 42, "label": "PROPERTY", "value": "Td"},
+      {"start": 43, "end": 48, "label": "VALUE"},
+      {"start": 53, "end": 70, "label": "PROPERTY", "value": "YM"},
+      {"start": 80, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, пригодный для пищевого контакта, с Tg > 100°C и низкой миграцией",
+    "entities": [
+      {"start": 40, "end": 42, "label": "PROPERTY", "value": "Tg"},
+      {"start": 46, "end": 51, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для пленок: высокая прозрачность, низкая проницаемость по O2 и CO2, плотность < 1 г/см³",
+    "entities": [
+      {"start": 37, "end": 64, "label": "PROPERTY", "value": "permO2"},
+      {"start": 34, "end": 39, "label": "QUALIFIER"},
+      {"start": 66, "end": 73, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 75, "end": 79, "label": "VALUE"},
+      {"start": 81, "end": 90, "label": "PROPERTY", "value": "rho"},
+      {"start": 93, "end": 101, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с отличной стойкостью к кислотам и щелочам, Td > 300°C",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Td"},
+      {"start": 56, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с эффектом памяти формы: Tg около 40°C, модуль упругости ~1 ГПа",
+    "entities": [
+      {"start": 31, "end": 33, "label": "PROPERTY", "value": "Tg"},
+      {"start": 40, "end": 44, "label": "VALUE"},
+      {"start": 46, "end": 63, "label": "PROPERTY", "value": "YM"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для аэрокосмоса: высокая термостойкость (Td > 450°C), низкая плотность (<1.3 г/см³), высокий модуль (>4 ГПа)",
+    "entities": [
+      {"start": 28, "end": 42, "label": "PROPERTY", "value": "Td"},
+      {"start": 24, "end": 30, "label": "QUALIFIER"},
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Td"},
+      {"start": 49, "end": 54, "label": "VALUE"},
+      {"start": 56, "end": 65, "label": "PROPERTY", "value": "rho"},
+      {"start": 67, "end": 77, "label": "VALUE"},
+      {"start": 79, "end": 91, "label": "PROPERTY", "value": "YM"},
+      {"start": 93, "end": 98, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с минимальным водопоглощением и высокой теплоёмкостью (Cp ~ 2.5 Дж/(г·К))",
+    "entities": [
+      {"start": 33, "end": 47, "label": "PROPERTY", "value": "rho"},
+      {"start": 30, "end": 37, "label": "QUALIFIER"},
+      {"start": 52, "end": 66, "label": "PROPERTY", "value": "Cp"},
+      {"start": 49, "end": 55, "label": "QUALIFIER"},
+      {"start": 68, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей совместимостью с наполнителями и плотностью 1.4-1.5 г/см³",
+    "entities": [
+      {"start": 50, "end": 59, "label": "PROPERTY", "value": "rho"},
+      {"start": 60, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой горючестью (LOI > 24%), безгалогеновый, с Tg > 140°C",
+    "entities": [
+      {"start": 13, "end": 28, "label": "PROPERTY", "value": "LOI"},
+      {"start": 10, "end": 15, "label": "QUALIFIER"},
+      {"start": 30, "end": 33, "label": "VALUE"},
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Tg"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, устойчивый к гидролизу, с прочностью на разрыв > 50 МПа и Tg > 120°C",
+    "entities": [
+      {"start": 55, "end": 75, "label": "PROPERTY", "value": "TSb"},
+      {"start": 78, "end": 84, "label": "VALUE"},
+      {"start": 89, "end": 91, "label": "PROPERTY", "value": "Tg"},
+      {"start": 95, "end": 100, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как нейлон, но с более низким водопоглощением и модулем упругости 2 ГПа",
+    "entities": [
+      {"start": 42, "end": 56, "label": "PROPERTY", "value": "rho"},
+      {"start": 38, "end": 43, "label": "QUALIFIER"},
+      {"start": 61, "end": 78, "label": "PROPERTY", "value": "YM"},
+      {"start": 79, "end": 84, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для спортивного инвентаря: высокая ударная вязкость, модуль упругости около 3 ГПа, плотность < 1.2",
+    "entities": [
+      {"start": 36, "end": 55, "label": "PROPERTY", "value": "TSb"},
+      {"start": 33, "end": 38, "label": "QUALIFIER"},
+      {"start": 57, "end": 74, "label": "PROPERTY", "value": "YM"},
+      {"start": 81, "end": 86, "label": "VALUE"},
+      {"start": 88, "end": 97, "label": "PROPERTY", "value": "rho"},
+      {"start": 100, "end": 104, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой стойкостью к истиранию и твёрдостью по Роквеллу > 100",
+    "entities": [
+      {"start": 17, "end": 41, "label": "PROPERTY", "value": "TSb"},
+      {"start": 14, "end": 20, "label": "QUALIFIER"},
+      {"start": 45, "end": 66, "label": "PROPERTY", "value": "TSb"},
+      {"start": 70, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с отличной атмосферостойкостью и температурой плавления не ниже 180°C",
+    "entities": [
+      {"start": 44, "end": 66, "label": "PROPERTY", "value": "Tm"},
+      {"start": 75, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для мембран топливных элементов: высокая протонная проводимость, низкая проницаемость по H2",
+    "entities": [
+      {"start": 49, "end": 76, "label": "PROPERTY", "value": "permH2"},
+      {"start": 46, "end": 53, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой теплопроводностью и высокой теплоёмкостью (Cp ~ 1.8 Дж/(г·К))",
+    "entities": [
+      {"start": 22, "end": 38, "label": "PROPERTY", "value": "Cp"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 43, "end": 57, "label": "PROPERTY", "value": "Cp"},
+      {"start": 40, "end": 46, "label": "QUALIFIER"},
+      {"start": 59, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который можно перерабатывать экструзией: индекс текучести > 10 г/10мин, Tg > 80°C",
+    "entities": [
+      {"start": 54, "end": 70, "label": "PROPERTY", "value": "Tg"},
+      {"start": 73, "end": 83, "label": "VALUE"},
+      {"start": 85, "end": 87, "label": "PROPERTY", "value": "Tg"},
+      {"start": 91, "end": 95, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу прозрачный полимер с УФ-защитой и модулем упругости около 2.5 ГПа",
+    "entities": [
+      {"start": 37, "end": 49, "label": "PROPERTY", "value": "YM"},
+      {"start": 56, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для герметиков: низкая газопроницаемость, Tg около -30°C, высокая эластичность",
+    "entities": [
+      {"start": 20, "end": 38, "label": "PROPERTY", "value": "permO2"},
+      {"start": 17, "end": 22, "label": "QUALIFIER"},
+      {"start": 40, "end": 42, "label": "PROPERTY", "value": "Tg"},
+      {"start": 49, "end": 54, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой твёрдостью и плотностью около 1.5 г/см³",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 40, "end": 49, "label": "PROPERTY", "value": "rho"},
+      {"start": 56, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низким коэффициентом линейного расширения и Tg > 200°C",
+    "entities": [
+      {"start": 22, "end": 55, "label": "PROPERTY", "value": "Tg"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 60, "end": 62, "label": "PROPERTY", "value": "Tg"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для оптических линз: высокий показатель преломления, низкая дисперсия, Tg > 140°C",
+    "entities": [
+      {"start": 42, "end": 64, "label": "PROPERTY", "value": "Tg"},
+      {"start": 39, "end": 45, "label": "QUALIFIER"},
+      {"start": 66, "end": 74, "label": "PROPERTY", "value": "Tg"},
+      {"start": 63, "end": 69, "label": "QUALIFIER"},
+      {"start": 76, "end": 78, "label": "PROPERTY", "value": "Tg"},
+      {"start": 82, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с низкой диэлектрической постоянной (ε < 2.0) для высокочастотных применений",
+    "entities": [
+      {"start": 16, "end": 43, "label": "PROPERTY", "value": "epsc"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 45, "end": 52, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на раздир и прочностью на разрыв > 60 МПа",
+    "entities": [
+      {"start": 17, "end": 41, "label": "PROPERTY", "value": "TSb"},
+      {"start": 13, "end": 19, "label": "QUALIFIER"},
+      {"start": 46, "end": 66, "label": "PROPERTY", "value": "TSb"},
+      {"start": 69, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для уплотнений: низкая остаточная деформация, температура эксплуатации от -40 до +150°C",
+    "entities": [
+      {"start": 22, "end": 44, "label": "PROPERTY", "value": "Tg"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 46, "end": 67, "label": "PROPERTY", "value": "Tg"},
+      {"start": 71, "end": 86, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с высокой стойкостью к растрескиванию под напряжением и Tg > 100°C",
+    "entities": [
+      {"start": 22, "end": 58, "label": "PROPERTY", "value": "TSb"},
+      {"start": 18, "end": 25, "label": "QUALIFIER"},
+      {"start": 63, "end": 65, "label": "PROPERTY", "value": "Tg"},
+      {"start": 69, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер для автомобильных деталей: ударопрочный, с модулем упругости ~ 2 ГПа, LOI > 21%",
+    "entities": [
+      {"start": 53, "end": 70, "label": "PROPERTY", "value": "YM"},
+      {"start": 73, "end": 78, "label": "VALUE"},
+      {"start": 80, "end": 83, "label": "PROPERTY", "value": "LOI"},
+      {"start": 87, "end": 90, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, стойкий к морской воде, с прочностью на разрыв не менее 45 МПа и Tg > 80°C",
+    "entities": [
+      {"start": 42, "end": 62, "label": "PROPERTY", "value": "TSb"},
+      {"start": 72, "end": 78, "label": "VALUE"},
+      {"start": 83, "end": 85, "label": "PROPERTY", "value": "Tg"},
+      {"start": 89, "end": 93, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой прочностью на изгиб (> 80 МПа) и температурой стеклования около 170°C",
+    "entities": [
+      {"start": 12, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 37, "end": 44, "label": "VALUE"},
+      {"start": 49, "end": 72, "label": "PROPERTY", "value": "Tg"},
+      {"start": 79, "end": 84, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с отличной стойкостью к маслам, Tg > 120°C и твёрдостью по Шору D > 70",
+    "entities": [
+      {"start": 42, "end": 44, "label": "PROPERTY", "value": "Tg"},
+      {"start": 48, "end": 53, "label": "VALUE"},
+      {"start": 58, "end": 79, "label": "PROPERTY", "value": "TSb"},
+      {"start": 82, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для электрической изоляции: высокая пробивная прочность (> 20 кВ/мм), низкая диэлектрическая проницаемость",
+    "entities": [
+      {"start": 39, "end": 64, "label": "PROPERTY", "value": "epsb"},
+      {"start": 35, "end": 42, "label": "QUALIFIER"},
+      {"start": 66, "end": 74, "label": "VALUE"},
+      {"start": 76, "end": 107, "label": "PROPERTY", "value": "epsc"},
+      {"start": 73, "end": 78, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер с низким дымообразованием и LOI > 30% для интерьеров",
+    "entities": [
+      {"start": 28, "end": 31, "label": "PROPERTY", "value": "LOI"},
+      {"start": 35, "end": 38, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который можно автоклавировать (Tg > 130°C) и который прозрачен для рентгена",
+    "entities": [
+      {"start": 33, "end": 35, "label": "PROPERTY", "value": "Tg"},
+      {"start": 40, "end": 45, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, похожий на ПММА, но с более высокой теплостойкостью (Tg > 130°C) и лучшей химстойкостью",
+    "entities": [
+      {"start": 43, "end": 57, "label": "PROPERTY", "value": "Tg"},
+      {"start": 35, "end": 43, "label": "QUALIFIER"},
+      {"start": 59, "end": 61, "label": "PROPERTY", "value": "Tg"},
+      {"start": 65, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для микрофлюидики: низкая автофлуоресценция, высокая прозрачность, Tg > 100°C",
+    "entities": [
+      {"start": 57, "end": 59, "label": "PROPERTY", "value": "Tg"},
+      {"start": 63, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на сдвиг и модулем сдвига около 1 ГПа",
+    "entities": [
+      {"start": 17, "end": 37, "label": "PROPERTY", "value": "TSb"},
+      {"start": 13, "end": 20, "label": "QUALIFIER"},
+      {"start": 42, "end": 57, "label": "PROPERTY", "value": "YM"},
+      {"start": 64, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, устойчивый к УФ и озону, с температурой деструкции > 350°C",
+    "entities": [
+      {"start": 46, "end": 70, "label": "PROPERTY", "value": "Td"},
+      {"start": 73, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для биомедицины: биоразлагаемый, с модулем упругости около 0.5 ГПа и Tg около 37°C",
+    "entities": [
+      {"start": 42, "end": 54, "label": "PROPERTY", "value": "YM"},
+      {"start": 61, "end": 67, "label": "VALUE"},
+      {"start": 72, "end": 74, "label": "PROPERTY", "value": "Tg"},
+      {"start": 81, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой сорбционной способностью и низкой плотностью (<0.8 г/см³)",
+    "entities": [
+      {"start": 37, "end": 46, "label": "PROPERTY", "value": "rho"},
+      {"start": 34, "end": 39, "label": "QUALIFIER"},
+      {"start": 48, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер для 3D-печати с низкой усадкой и температурой стеклования 70-90°C",
+    "entities": [
+      {"start": 25, "end": 41, "label": "PROPERTY", "value": "Xc"},
+      {"start": 22, "end": 27, "label": "QUALIFIER"},
+      {"start": 46, "end": 69, "label": "PROPERTY", "value": "Tg"},
+      {"start": 70, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с отличной адгезией к стали и прочностью на отрыв > 5 МПа",
+    "entities": [
+      {"start": 36, "end": 56, "label": "PROPERTY", "value": "TSb"},
+      {"start": 59, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, совместимый с жидкими кристаллами, с диэлектрической проницаемостью < 3 на 1 кГц",
+    "entities": [
+      {"start": 49, "end": 80, "label": "PROPERTY", "value": "epsc"},
+      {"start": 83, "end": 93, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой теплостойкостью (Td > 400°C) и низкой плотностью (1.0-1.2 г/см³)",
+    "entities": [
+      {"start": 17, "end": 31, "label": "PROPERTY", "value": "Td"},
+      {"start": 13, "end": 20, "label": "QUALIFIER"},
+      {"start": 33, "end": 35, "label": "PROPERTY", "value": "Td"},
+      {"start": 38, "end": 43, "label": "VALUE"},
+      {"start": 45, "end": 54, "label": "PROPERTY", "value": "rho"},
+      {"start": 56, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, стойкий к ионизирующему излучению, с Tg > 150°C и прочностью > 50 МПа",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 56, "end": 61, "label": "VALUE"},
+      {"start": 66, "end": 78, "label": "PROPERTY", "value": "TSb"},
+      {"start": 81, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой энергией активации термодеструкции (Eat > 100 кДж/моль)",
+    "entities": [
+      {"start": 12, "end": 50, "label": "PROPERTY", "value": "Eat"},
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Eat"},
+      {"start": 57, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как поликарбонат, но с лучшей химостойкостью и модулем упругости > 2.2 ГПа",
+    "entities": [
+      {"start": 51, "end": 68, "label": "PROPERTY", "value": "YM"},
+      {"start": 71, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для звукоизоляции: высокий коэффициент потерь, плотность около 1.3 г/см³",
+    "entities": [
+      {"start": 40, "end": 49, "label": "PROPERTY", "value": "rho"},
+      {"start": 56, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой проницаемостью для водяного пара и кислорода",
+    "entities": [
+      {"start": 20, "end": 49, "label": "PROPERTY", "value": "permO2"},
+      {"start": 17, "end": 22, "label": "QUALIFIER"},
+      {"start": 54, "end": 63, "label": "PROPERTY", "value": "permO2"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей совместимостью с углеродными нанотрубками и электропроводностью",
+    "entities": []
+  },
+  {
+    "text": "Нужен полимер с высокой стойкостью к пару и горячей воде (Tg > 130°C)",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 56, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для ламинирования: высокая прозрачность, низкая температура размягчения (60-80°C)",
+    "entities": [
+      {"start": 42, "end": 70, "label": "PROPERTY", "value": "Tg"},
+      {"start": 39, "end": 46, "label": "QUALIFIER"},
+      {"start": 72, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, устойчивый к плесени, с Tg > 80°C и низким водопоглощением",
+    "entities": [
+      {"start": 28, "end": 30, "label": "PROPERTY", "value": "Tg"},
+      {"start": 34, "end": 38, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой поверхностной энергией для склеивания и плотностью ~1.1 г/см³",
+    "entities": [
+      {"start": 50, "end": 59, "label": "PROPERTY", "value": "rho"},
+      {"start": 61, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для мембран обратного осмоса: высокая селективность, проницаемость по воде",
+    "entities": []
+  },
+  {
+    "text": "Нужен полимер с низкой теплопроводностью (λ < 0.2 Вт/(м·К)) и Tg > 100°C",
+    "entities": [
+      {"start": 16, "end": 32, "label": "PROPERTY", "value": "Cp"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 34, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Tg"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, который можно перерабатывать литьём под давлением: ПТР > 15, Tg ~ 90°C",
+    "entities": [
+      {"start": 58, "end": 60, "label": "PROPERTY", "value": "Tg"},
+      {"start": 65, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой трещиностойкостью (KIC > 3 МПа·м½) и модулем упругости 2 ГПа",
+    "entities": [
+      {"start": 12, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 9, "end": 18, "label": "QUALIFIER"},
+      {"start": 36, "end": 49, "label": "VALUE"},
+      {"start": 54, "end": 71, "label": "PROPERTY", "value": "YM"},
+      {"start": 72, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с отличной стойкостью к криогенным температурам (Tg < -100°C)",
+    "entities": [
+      {"start": 55, "end": 57, "label": "PROPERTY", "value": "Tg"},
+      {"start": 60, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер для гибкой электроники: эластичный, с модулем упругости < 0.1 ГПа и Tg < 0°C",
+    "entities": [
+      {"start": 46, "end": 63, "label": "PROPERTY", "value": "YM"},
+      {"start": 66, "end": 73, "label": "VALUE"},
+      {"start": 78, "end": 80, "label": "PROPERTY", "value": "Tg"},
+      {"start": 83, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой диэлектрической проницаемостью (ε = 2.0) и высокой теплопроводностью",
+    "entities": [
+      {"start": 14, "end": 45, "label": "PROPERTY", "value": "epsc"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 47, "end": 54, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, поглощающий УФ, с температурой деструкции > 300°C и Tg > 120°C",
+    "entities": [
+      {"start": 44, "end": 68, "label": "PROPERTY", "value": "Td"},
+      {"start": 71, "end": 76, "label": "VALUE"},
+      {"start": 81, "end": 83, "label": "PROPERTY", "value": "Tg"},
+      {"start": 87, "end": 92, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой стойкостью к щелочам и прочностью на разрыв > 40 МПа",
+    "entities": [
+      {"start": 41, "end": 61, "label": "PROPERTY", "value": "TSb"},
+      {"start": 64, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для остекления: высокая прозрачность, ударопрочность, Tg > 100°C, плотность < 1.2",
+    "entities": [
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Tg"},
+      {"start": 58, "end": 63, "label": "VALUE"},
+      {"start": 65, "end": 74, "label": "PROPERTY", "value": "rho"},
+      {"start": 77, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низким влагопоглощением и диэлектрической проницаемостью < 2.5 на 1 МГц",
+    "entities": [
+      {"start": 19, "end": 33, "label": "PROPERTY", "value": "rho"},
+      {"start": 16, "end": 21, "label": "QUALIFIER"},
+      {"start": 38, "end": 69, "label": "PROPERTY", "value": "epse_1.78"},
+      {"start": 72, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как АБС, но с более высокой теплостойкостью и модулем упругости > 2.5 ГПа",
+    "entities": [
+      {"start": 41, "end": 55, "label": "PROPERTY", "value": "Tg"},
+      {"start": 33, "end": 41, "label": "QUALIFIER"},
+      {"start": 60, "end": 77, "label": "PROPERTY", "value": "YM"},
+      {"start": 80, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой стойкостью к радиации и атомной энергии: радиационная стойкость, Tg > 180°C",
+    "entities": [
+      {"start": 56, "end": 58, "label": "PROPERTY", "value": "Tg"},
+      {"start": 62, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для имплантатов: биосовместимый, с модулем упругости около 3 ГПа и плотностью 1.2",
+    "entities": [
+      {"start": 43, "end": 55, "label": "PROPERTY", "value": "YM"},
+      {"start": 62, "end": 67, "label": "VALUE"},
+      {"start": 72, "end": 81, "label": "PROPERTY", "value": "rho"},
+      {"start": 82, "end": 86, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой энергией активации течения и высокой текучестью расплава",
+    "entities": [
+      {"start": 15, "end": 44, "label": "PROPERTY", "value": "Eat"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер для волокон: высокая прочность на разрыв (> 1 ГПа) и модуль упругости > 50 ГПа",
+    "entities": [
+      {"start": 20, "end": 40, "label": "PROPERTY", "value": "TSb"},
+      {"start": 16, "end": 23, "label": "QUALIFIER"},
+      {"start": 42, "end": 49, "label": "VALUE"},
+      {"start": 54, "end": 71, "label": "PROPERTY", "value": "YM"},
+      {"start": 74, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, стойкий к гидролитической деструкции, для медицинских изделий",
+    "entities": []
+  },
+  {
+    "text": "Хочу полимер с высоким показателем преломления (n > 1.6) и низкой дисперсией",
+    "entities": [
+      {"start": 16, "end": 40, "label": "PROPERTY", "value": "Tg"},
+      {"start": 12, "end": 19, "label": "QUALIFIER"},
+      {"start": 42, "end": 49, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой полярностью и диэлектрической постоянной < 2.2",
+    "entities": [
+      {"start": 31, "end": 58, "label": "PROPERTY", "value": "epsc"},
+      {"start": 61, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, пригодный для пайки оплавлением (Tg > 260°C) и с низким КТР",
+    "entities": [
+      {"start": 37, "end": 39, "label": "PROPERTY", "value": "Tg"},
+      {"start": 43, "end": 48, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с отличной стойкостью к абразивному износу и твёрдостью > 80 по Шору D",
+    "entities": [
+      {"start": 44, "end": 65, "label": "PROPERTY", "value": "TSb"},
+      {"start": 68, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для фотолитографии: высокая чувствительность, низкая шероховатость, Tg > 130°C",
+    "entities": [
+      {"start": 56, "end": 58, "label": "PROPERTY", "value": "Tg"},
+      {"start": 62, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с высокой прочностью на сжатие (> 100 МПа) и модулем упругости ~ 4 ГПа",
+    "entities": [
+      {"start": 22, "end": 44, "label": "PROPERTY", "value": "TSb"},
+      {"start": 18, "end": 25, "label": "QUALIFIER"},
+      {"start": 46, "end": 55, "label": "VALUE"},
+      {"start": 60, "end": 77, "label": "PROPERTY", "value": "YM"},
+      {"start": 80, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, который можно склеивать без праймера, с Tg > 80°C и прочностью на сдвиг > 10 МПа",
+    "entities": [
+      {"start": 43, "end": 45, "label": "PROPERTY", "value": "Tg"},
+      {"start": 49, "end": 53, "label": "VALUE"},
+      {"start": 58, "end": 78, "label": "PROPERTY", "value": "TSb"},
+      {"start": 81, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой теплопроводностью и высокой теплоёмкостью (Cp ~ 2.0 Дж/(г·К))",
+    "entities": [
+      {"start": 13, "end": 29, "label": "PROPERTY", "value": "Cp"},
+      {"start": 10, "end": 15, "label": "QUALIFIER"},
+      {"start": 34, "end": 48, "label": "PROPERTY", "value": "Cp"},
+      {"start": 31, "end": 37, "label": "QUALIFIER"},
+      {"start": 50, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой акустической прозрачностью и плотностью около 1.0 г/см³",
+    "entities": [
+      {"start": 44, "end": 53, "label": "PROPERTY", "value": "rho"},
+      {"start": 60, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей растворимостью в обычных растворителях и Tg < 50°C",
+    "entities": [
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Tg"},
+      {"start": 57, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для наноимпринтинга: низкая вязкость, высокая термостабильность (Td > 350°C)",
+    "entities": [
+      {"start": 57, "end": 77, "label": "PROPERTY", "value": "Td"},
+      {"start": 53, "end": 60, "label": "QUALIFIER"},
+      {"start": 79, "end": 81, "label": "PROPERTY", "value": "Td"},
+      {"start": 84, "end": 89, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, разлагаемый микроорганизмами, с модулем упругости около 0.5 ГПа",
+    "entities": [
+      {"start": 49, "end": 66, "label": "PROPERTY", "value": "YM"},
+      {"start": 73, "end": 79, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой диэлектрической проницаемостью на частоте 15 ГГц (ε < 2.0)",
+    "entities": [
+      {"start": 16, "end": 47, "label": "PROPERTY", "value": "epse_15.0"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 53, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой энергией когезии (CED > 400 Дж/см³) и прочностью на разрыв > 70 МПа",
+    "entities": [
+      {"start": 12, "end": 30, "label": "PROPERTY", "value": "CED"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 32, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 60, "label": "PROPERTY", "value": "TSb"},
+      {"start": 63, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной стойкостью к растрескиванию в активных средах",
+    "entities": []
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на раздир и эластичностью, как у резины",
+    "entities": [
+      {"start": 14, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой плотностью (0.9-1.0 г/см³) и температурой плавления 130-150°C",
+    "entities": [
+      {"start": 12, "end": 21, "label": "PROPERTY", "value": "rho"},
+      {"start": 23, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 62, "label": "PROPERTY", "value": "Tm"},
+      {"start": 63, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, пригодный для лазерной сварки, с оптической прозрачностью > 80% и Tg > 120°C",
+    "entities": [
+      {"start": 59, "end": 78, "label": "PROPERTY", "value": "Tg"},
+      {"start": 81, "end": 84, "label": "VALUE"},
+      {"start": 89, "end": 91, "label": "PROPERTY", "value": "Tg"},
+      {"start": 95, "end": 100, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой твёрдостью и износостойкостью для зубчатых колёс",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер с низким коэффициентом трения и высокой несущей способностью",
+    "entities": [
+      {"start": 13, "end": 37, "label": "PROPERTY", "value": "YM"},
+      {"start": 10, "end": 15, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, стойкий к дезинфицирующим средствам, с Tg > 100°C",
+    "entities": [
+      {"start": 47, "end": 49, "label": "PROPERTY", "value": "Tg"},
+      {"start": 53, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на изгиб при низких температурах",
+    "entities": [
+      {"start": 14, "end": 37, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер для разделения газов: высокая проницаемость по CO2 и селективность CO2/CH4",
+    "entities": [
+      {"start": 24, "end": 51, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 21, "end": 28, "label": "QUALIFIER"},
+      {"start": 55, "end": 62, "label": "PROPERTY", "value": "permCH4"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с высокой прочностью на растяжение и модулем упругости около 2 ГПа",
+    "entities": [
+      {"start": 22, "end": 46, "label": "PROPERTY", "value": "TSb"},
+      {"start": 18, "end": 25, "label": "QUALIFIER"},
+      {"start": 51, "end": 68, "label": "PROPERTY", "value": "YM"},
+      {"start": 75, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой горючестью и кислородным индексом > 28%",
+    "entities": [
+      {"start": 16, "end": 33, "label": "PROPERTY", "value": "LOI"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 38, "end": 55, "label": "PROPERTY", "value": "LOI"},
+      {"start": 59, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для кабельной изоляции: высокая электрическая прочность (> 30 кВ/мм), низкая диэлектрическая проницаемость",
+    "entities": [
+      {"start": 28, "end": 52, "label": "PROPERTY", "value": "epsb"},
+      {"start": 24, "end": 31, "label": "QUALIFIER"},
+      {"start": 54, "end": 62, "label": "VALUE"},
+      {"start": 64, "end": 95, "label": "PROPERTY", "value": "epsc"},
+      {"start": 61, "end": 66, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, стойкий к солям и кислотам, для химической аппаратуры",
+    "entities": []
+  },
+  {
+    "text": "Ищу полимер с высокой ударной вязкостью по Шарпи (> 10 кДж/м²) и Tg > 40°C",
+    "entities": [
+      {"start": 13, "end": 39, "label": "PROPERTY", "value": "TSb"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 41, "end": 54, "label": "VALUE"},
+      {"start": 59, "end": 61, "label": "PROPERTY", "value": "Tg"},
+      {"start": 65, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой твёрдостью и модулем упругости > 5 ГПа для подшипников",
+    "entities": [
+      {"start": 13, "end": 33, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 16, "label": "QUALIFIER"},
+      {"start": 38, "end": 55, "label": "PROPERTY", "value": "YM"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, который можно напылять, с адгезией к алюминию и Tg > 90°C",
+    "entities": [
+      {"start": 48, "end": 67, "label": "PROPERTY", "value": "Tg"},
+      {"start": 44, "end": 51, "label": "QUALIFIER"},
+      {"start": 72, "end": 74, "label": "PROPERTY", "value": "Tg"},
+      {"start": 78, "end": 82, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой проницаемостью по азоту и высокой по кислороду",
+    "entities": [
+      {"start": 16, "end": 45, "label": "PROPERTY", "value": "permN2"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 49, "end": 56, "label": "PROPERTY", "value": "permO2"},
+      {"start": 46, "end": 51, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер для теплиц: высокая светопрозрачность, устойчивость к УФ, Tg > 60°C",
+    "entities": [
+      {"start": 56, "end": 58, "label": "PROPERTY", "value": "Tg"},
+      {"start": 62, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой сорбцией паров воды и низкой плотностью",
+    "entities": [
+      {"start": 14, "end": 33, "label": "PROPERTY", "value": "rho"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 38, "end": 47, "label": "PROPERTY", "value": "rho"},
+      {"start": 35, "end": 40, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на сжатие (> 120 МПа) и модулем упругости около 4 ГПа",
+    "entities": [
+      {"start": 14, "end": 36, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 38, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 69, "label": "PROPERTY", "value": "YM"},
+      {"start": 76, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с отличной стойкостью к термоциклированию и Tg > 150°C",
+    "entities": [
+      {"start": 48, "end": 50, "label": "PROPERTY", "value": "Tg"},
+      {"start": 54, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, совместимый с кровью, для медицинских трубок",
+    "entities": []
+  },
+  {
+    "text": "Хочу полимер с высокой прочностью на разрыв при 150°C (> 30 МПа) и Tg > 200°C",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 50, "end": 57, "label": "VALUE"},
+      {"start": 62, "end": 64, "label": "PROPERTY", "value": "Tg"},
+      {"start": 68, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для акустических линз: согласованный импеданс, низкое затухание, плотность ~1.2 г/см³",
+    "entities": [
+      {"start": 65, "end": 74, "label": "PROPERTY", "value": "rho"},
+      {"start": 77, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с Tg около 95°C и модулем Юнга примерно 2.7 ГПа",
+    "entities": [
+      {"start": 14, "end": 16, "label": "PROPERTY", "value": "Tg"},
+      {"start": 24, "end": 28, "label": "VALUE"},
+      {"start": 42, "end": 54, "label": "PROPERTY", "value": "YM"},
+      {"start": 63, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу материал, который бы не разрушался при 300°C и имел плотность не больше 1.3",
+    "entities": [
+      {"start": 35, "end": 57, "label": "PROPERTY", "value": "Td"},
+      {"start": 61, "end": 66, "label": "VALUE"},
+      {"start": 78, "end": 87, "label": "PROPERTY", "value": "rho"},
+      {"start": 97, "end": 101, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с высокой стойкостью к окислению и LOI < 29%",
+    "entities": [
+      {"start": 20, "end": 46, "label": "PROPERTY", "value": "LOI"},
+      {"start": 18, "end": 24, "label": "QUALIFIER"},
+      {"start": 50, "end": 53, "label": "PROPERTY", "value": "LOI"},
+      {"start": 57, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Чтобы плёнка была прозрачной и имела прочность на разрыв больше 55 МПа",
+    "entities": [
+      {"start": 42, "end": 62, "label": "PROPERTY", "value": "TSb"},
+      {"start": 69, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется пластик с минимальной усадкой и температурой стеклования 110°C",
+    "entities": [
+      {"start": 20, "end": 37, "label": "PROPERTY", "value": "Xc"},
+      {"start": 17, "end": 25, "label": "QUALIFIER"},
+      {"start": 42, "end": 65, "label": "PROPERTY", "value": "Tg"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как PLA, но с термостойкостью до 160°C и биоразлагаемый",
+    "entities": [
+      {"start": 25, "end": 50, "label": "PROPERTY", "value": "Td"},
+      {"start": 54, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с отличной химической стойкостью и кислородным индексом 26%",
+    "entities": [
+      {"start": 12, "end": 37, "label": "PROPERTY", "value": "Td"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 42, "end": 59, "label": "PROPERTY", "value": "LOI"},
+      {"start": 60, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для контакта с пищевыми продуктами, Tg > 90°C",
+    "entities": [
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 50, "end": 54, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с малым водопоглощением и диэлектрической проницаемостью 2.8",
+    "entities": [
+      {"start": 14, "end": 32, "label": "PROPERTY", "value": "rho"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 37, "end": 67, "label": "PROPERTY", "value": "epsc"},
+      {"start": 68, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Какие полимеры имеют температуру плавления 190-210°C и низкую плотность?",
+    "entities": [
+      {"start": 20, "end": 42, "label": "PROPERTY", "value": "Tm"},
+      {"start": 43, "end": 51, "label": "VALUE"},
+      {"start": 56, "end": 65, "label": "PROPERTY", "value": "rho"},
+      {"start": 62, "end": 67, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с высокой твёрдостью и Tg не ниже 105°C",
+    "entities": [
+      {"start": 18, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 15, "end": 21, "label": "QUALIFIER"},
+      {"start": 42, "end": 44, "label": "PROPERTY", "value": "Tg"},
+      {"start": 53, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется материал, выдерживающий стерилизацию паром, Tg > 125°C",
+    "entities": [
+      {"start": 53, "end": 55, "label": "PROPERTY", "value": "Tg"},
+      {"start": 59, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой прочностью на сжатие и модулем упругости 3.1 ГПа",
+    "entities": [
+      {"start": 15, "end": 37, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 42, "end": 59, "label": "PROPERTY", "value": "YM"},
+      {"start": 60, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для автомобильной оптики: высокая светопрозрачность, Tg < 140°C, плотность < 1.2",
+    "entities": [
+      {"start": 40, "end": 58, "label": "PROPERTY", "value": "Tg"},
+      {"start": 38, "end": 44, "label": "QUALIFIER"},
+      {"start": 60, "end": 65, "label": "VALUE"},
+      {"start": 67, "end": 76, "label": "PROPERTY", "value": "rho"},
+      {"start": 79, "end": 83, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой проницаемостью по гелию и высокой по водороду",
+    "entities": [
+      {"start": 15, "end": 44, "label": "PROPERTY", "value": "permHe"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"},
+      {"start": 48, "end": 55, "label": "PROPERTY", "value": "permH2"},
+      {"start": 45, "end": 51, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который бы не желтел на солнце и имел LOI > 24%",
+    "entities": [
+      {"start": 51, "end": 54, "label": "PROPERTY", "value": "LOI"},
+      {"start": 58, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер для мембран: высокая селективность CO2/N2 и проницаемость по CO2 не менее 50 Баррер",
+    "entities": [
+      {"start": 21, "end": 48, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 18, "end": 26, "label": "QUALIFIER"},
+      {"start": 68, "end": 75, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 84, "end": 92, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с отличной адгезией к стеклу и модулем сдвига около 0.9 ГПа",
+    "entities": [
+      {"start": 12, "end": 30, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 35, "end": 50, "label": "PROPERTY", "value": "YM"},
+      {"start": 57, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, устойчивый к щелочам и с температурой деструкции выше 350°C",
+    "entities": [
+      {"start": 38, "end": 66, "label": "PROPERTY", "value": "Td"},
+      {"start": 72, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с хорошей гидрофобностью и углом смачивания > 90°",
+    "entities": [
+      {"start": 15, "end": 29, "label": "PROPERTY", "value": "CED"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 34, "end": 51, "label": "PROPERTY", "value": "CED"},
+      {"start": 55, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой диэлектрической постоянной (2.3) и высокой теплоёмкостью",
+    "entities": [
+      {"start": 16, "end": 43, "label": "PROPERTY", "value": "epsc"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 45, "end": 48, "label": "VALUE"},
+      {"start": 53, "end": 67, "label": "PROPERTY", "value": "Cp"},
+      {"start": 50, "end": 56, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер, который можно перерабатывать экструзией: ПТР 12-15, Tg < 85°C",
+    "entities": [
+      {"start": 48, "end": 50, "label": "PROPERTY", "value": "Tg"},
+      {"start": 55, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низким КЛТР и термостойкостью до 400°C",
+    "entities": [
+      {"start": 15, "end": 27, "label": "PROPERTY", "value": "Tg"},
+      {"start": 12, "end": 16, "label": "QUALIFIER"},
+      {"start": 32, "end": 59, "label": "PROPERTY", "value": "Td"},
+      {"start": 63, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для медицинских трубок: биосовместимый, Tg около 37°C",
+    "entities": [
+      {"start": 46, "end": 48, "label": "PROPERTY", "value": "Tg"},
+      {"start": 55, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с прочностью на разрыв 65 МПа и удлинением > 5%",
+    "entities": [
+      {"start": 18, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 39, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 65, "label": "PROPERTY", "value": "TSb"},
+      {"start": 68, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется пластик с высокой атмосферостойкостью и Td > 320°C",
+    "entities": [
+      {"start": 20, "end": 44, "label": "PROPERTY", "value": "Td"},
+      {"start": 17, "end": 23, "label": "QUALIFIER"},
+      {"start": 49, "end": 51, "label": "PROPERTY", "value": "Td"},
+      {"start": 55, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с малым дымовыделением и кислородным индексом > 30%",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "LOI"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 35, "end": 52, "label": "PROPERTY", "value": "LOI"},
+      {"start": 56, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с хорошей текучестью расплава и модулем упругости 2.8 ГПа",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "Tg"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 40, "end": 57, "label": "PROPERTY", "value": "YM"},
+      {"start": 58, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу прозрачный полимер для линз: высокий индекс преломления, Tg > 130°C",
+    "entities": [
+      {"start": 41, "end": 56, "label": "PROPERTY", "value": "Tg"},
+      {"start": 38, "end": 44, "label": "QUALIFIER"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой полярностью и диэлектрической проницаемостью 2.4",
+    "entities": [
+      {"start": 31, "end": 62, "label": "PROPERTY", "value": "epsc"},
+      {"start": 63, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, стойкий к ультрафиолету и с температурой стеклования 115°C",
+    "entities": [
+      {"start": 50, "end": 73, "label": "PROPERTY", "value": "Tg"},
+      {"start": 74, "end": 79, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для 3D-печати: низкая усадка, температура стеклования 85°C",
+    "entities": [
+      {"start": 24, "end": 40, "label": "PROPERTY", "value": "Xc"},
+      {"start": 21, "end": 26, "label": "QUALIFIER"},
+      {"start": 42, "end": 65, "label": "PROPERTY", "value": "Tg"},
+      {"start": 66, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой влагопроницаемостью и Tg < 100°C",
+    "entities": [
+      {"start": 18, "end": 37, "label": "PROPERTY", "value": "permO2"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 41, "end": 43, "label": "PROPERTY", "value": "Tg"},
+      {"start": 47, "end": 52, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, разлагающийся в почве, с модулем упругости около 0.6 ГПа",
+    "entities": [
+      {"start": 44, "end": 61, "label": "PROPERTY", "value": "YM"},
+      {"start": 68, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой твёрдостью по Шору D и плотностью 1.15",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 50, "end": 59, "label": "PROPERTY", "value": "rho"},
+      {"start": 60, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для гибкой упаковки: низкая проницаемость по O2 и высокая эластичность",
+    "entities": [
+      {"start": 22, "end": 49, "label": "PROPERTY", "value": "permO2"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 54, "end": 66, "label": "PROPERTY", "value": "YM"},
+      {"start": 51, "end": 58, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой адгезией к полиэтилену и Tg около 60°C",
+    "entities": [
+      {"start": 16, "end": 34, "label": "PROPERTY", "value": "Tg"},
+      {"start": 13, "end": 19, "label": "QUALIFIER"},
+      {"start": 56, "end": 58, "label": "PROPERTY", "value": "Tg"},
+      {"start": 65, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой теплопроводностью и плотностью менее 1.0",
+    "entities": [
+      {"start": 22, "end": 38, "label": "PROPERTY", "value": "Cp"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 43, "end": 52, "label": "PROPERTY", "value": "rho"},
+      {"start": 58, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с повышенной ударной вязкостью и LOI > 27%",
+    "entities": [
+      {"start": 15, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 43, "end": 46, "label": "PROPERTY", "value": "LOI"},
+      {"start": 50, "end": 53, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, не поддерживающий горение, с температурой деструкции > 380°C",
+    "entities": [
+      {"start": 52, "end": 76, "label": "PROPERTY", "value": "Td"},
+      {"start": 79, "end": 84, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с отличной стойкостью к маслам и Tg > 135°C",
+    "entities": [
+      {"start": 20, "end": 41, "label": "PROPERTY", "value": "Tg"},
+      {"start": 16, "end": 23, "label": "QUALIFIER"},
+      {"start": 45, "end": 47, "label": "PROPERTY", "value": "Tg"},
+      {"start": 51, "end": 56, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для электрических разъёмов: высокая трекингостойкость, LOI > 30%",
+    "entities": [
+      {"start": 34, "end": 53, "label": "PROPERTY", "value": "epsb"},
+      {"start": 31, "end": 37, "label": "QUALIFIER"},
+      {"start": 55, "end": 58, "label": "PROPERTY", "value": "LOI"},
+      {"start": 62, "end": 65, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с низкой энергией поверхности и хорошей смачиваемостью",
+    "entities": [
+      {"start": 14, "end": 35, "label": "PROPERTY", "value": "CED"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой прочностью на сдвиг и Tg > 110°C",
+    "entities": [
+      {"start": 15, "end": 39, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 43, "end": 45, "label": "PROPERTY", "value": "Tg"},
+      {"start": 49, "end": 54, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с малым коэффициентом трения и твёрдостью не ниже 75 по Шору D",
+    "entities": [
+      {"start": 14, "end": 38, "label": "PROPERTY", "value": "YM"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 43, "end": 64, "label": "PROPERTY", "value": "TSb"},
+      {"start": 73, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой теплоёмкостью (Cp около 2.3) и низкой плотностью",
+    "entities": [
+      {"start": 12, "end": 30, "label": "PROPERTY", "value": "Cp"},
+      {"start": 9, "end": 15, "label": "QUALIFIER"},
+      {"start": 32, "end": 34, "label": "PROPERTY", "value": "Cp"},
+      {"start": 41, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 59, "label": "PROPERTY", "value": "rho"},
+      {"start": 56, "end": 61, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, пригодный для лакировки, с Tg > 90°C",
+    "entities": [
+      {"start": 43, "end": 45, "label": "PROPERTY", "value": "Tg"},
+      {"start": 49, "end": 53, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с хорошей совместимостью с ПВХ и модулем упругости 2.4 ГПа",
+    "entities": [
+      {"start": 42, "end": 59, "label": "PROPERTY", "value": "YM"},
+      {"start": 60, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер для вспененных изделий: низкая плотность, высокая эластичность",
+    "entities": [
+      {"start": 31, "end": 40, "label": "PROPERTY", "value": "rho"},
+      {"start": 28, "end": 33, "label": "QUALIFIER"},
+      {"start": 42, "end": 54, "label": "PROPERTY", "value": "YM"},
+      {"start": 39, "end": 45, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой горючестью (UL94 V-0) и температурой стеклования 140°C",
+    "entities": [
+      {"start": 13, "end": 28, "label": "PROPERTY", "value": "LOI"},
+      {"start": 10, "end": 15, "label": "QUALIFIER"},
+      {"start": 42, "end": 65, "label": "PROPERTY", "value": "Tg"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с высокой износостойкостью и модулем упругости ~ 3.2 ГПа",
+    "entities": [
+      {"start": 20, "end": 44, "label": "PROPERTY", "value": "TSb"},
+      {"start": 17, "end": 23, "label": "QUALIFIER"},
+      {"start": 49, "end": 66, "label": "PROPERTY", "value": "YM"},
+      {"start": 69, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как полиуретан, но с более высокой теплостойкостью",
+    "entities": [
+      {"start": 38, "end": 52, "label": "PROPERTY", "value": "Td"},
+      {"start": 31, "end": 38, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой остаточной деформацией и Tg > 75°C",
+    "entities": [
+      {"start": 22, "end": 44, "label": "PROPERTY", "value": "Tg"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 48, "end": 50, "label": "PROPERTY", "value": "Tg"},
+      {"start": 54, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной стойкостью к истиранию и LOI < 25%",
+    "entities": [
+      {"start": 43, "end": 46, "label": "PROPERTY", "value": "LOI"},
+      {"start": 50, "end": 53, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на раздир и плотностью около 1.25",
+    "entities": [
+      {"start": 14, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 43, "end": 52, "label": "PROPERTY", "value": "rho"},
+      {"start": 59, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для ортопедии: биосовместимый, с модулем упругости 1.2 ГПа",
+    "entities": [
+      {"start": 41, "end": 58, "label": "PROPERTY", "value": "YM"},
+      {"start": 59, "end": 65, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, который можно мыть в посудомоечной машине (Tg > 95°C)",
+    "entities": [
+      {"start": 51, "end": 53, "label": "PROPERTY", "value": "Tg"},
+      {"start": 57, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой поверхностной твёрдостью и плотностью 1.35",
+    "entities": [
+      {"start": 38, "end": 47, "label": "PROPERTY", "value": "rho"},
+      {"start": 48, "end": 52, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, не боящийся кипятка, с температурой деструкции > 250°C",
+    "entities": [
+      {"start": 47, "end": 71, "label": "PROPERTY", "value": "Td"},
+      {"start": 74, "end": 79, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой миграцией и хорошей прозрачностью",
+    "entities": [
+      {"start": 14, "end": 28, "label": "PROPERTY", "value": "rho"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с высокой прочностью на разрыв при 80°C",
+    "entities": [
+      {"start": 18, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 15, "end": 21, "label": "QUALIFIER"},
+      {"start": 42, "end": 49, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, стойкий к маслам и бензину, с LOI < 22%",
+    "entities": [
+      {"start": 51, "end": 54, "label": "PROPERTY", "value": "LOI"},
+      {"start": 58, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для труб горячего водоснабжения: Tg > 120°C, прочность > 50 МПа",
+    "entities": [
+      {"start": 34, "end": 36, "label": "PROPERTY", "value": "Tg"},
+      {"start": 40, "end": 45, "label": "VALUE"},
+      {"start": 47, "end": 59, "label": "PROPERTY", "value": "TSb"},
+      {"start": 62, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой ползучестью и модулем упругости 2.9 ГПа",
+    "entities": [
+      {"start": 35, "end": 52, "label": "PROPERTY", "value": "YM"},
+      {"start": 53, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей электроизоляцией и диэлектрической постоянной 2.6",
+    "entities": [
+      {"start": 41, "end": 68, "label": "PROPERTY", "value": "epsc"},
+      {"start": 69, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как силикон, но с модулем упругости повыше, около 0.4 ГПа",
+    "entities": [
+      {"start": 36, "end": 53, "label": "PROPERTY", "value": "YM"},
+      {"start": 63, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с повышенной термостойкостью (Td > 420°C) и низкой плотностью",
+    "entities": [
+      {"start": 22, "end": 36, "label": "PROPERTY", "value": "Td"},
+      {"start": 19, "end": 25, "label": "QUALIFIER"},
+      {"start": 38, "end": 40, "label": "PROPERTY", "value": "Td"},
+      {"start": 43, "end": 48, "label": "VALUE"},
+      {"start": 50, "end": 59, "label": "PROPERTY", "value": "rho"},
+      {"start": 56, "end": 61, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой твёрдостью и прочностью на сжатие > 90 МПа",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 40, "end": 62, "label": "PROPERTY", "value": "TSb"},
+      {"start": 65, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер для линз: высокая прозрачность, Tg < 140°C, низкая дисперсия",
+    "entities": [
+      {"start": 37, "end": 39, "label": "PROPERTY", "value": "Tg"},
+      {"start": 43, "end": 48, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низким водопоглощением и температурой плавления 175°C",
+    "entities": [
+      {"start": 12, "end": 30, "label": "PROPERTY", "value": "rho"},
+      {"start": 10, "end": 15, "label": "QUALIFIER"},
+      {"start": 35, "end": 57, "label": "PROPERTY", "value": "Tm"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с отличной химостойкостью и плотностью ~1.18",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "Td"},
+      {"start": 17, "end": 24, "label": "QUALIFIER"},
+      {"start": 50, "end": 59, "label": "PROPERTY", "value": "rho"},
+      {"start": 62, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с высокой морозостойкостью (Tg < -60°C)",
+    "entities": [
+      {"start": 47, "end": 49, "label": "PROPERTY", "value": "Tg"},
+      {"start": 52, "end": 57, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с низкой проницаемостью по метану и углекислому газу",
+    "entities": [
+      {"start": 18, "end": 47, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 51, "end": 68, "label": "PROPERTY", "value": "permCO2"}
+    ]
+  },
+  {
+    "text": "Хочу полимер для спорта: высокая ударная вязкость, модуль упругости 2.1 ГПа",
+    "entities": [
+      {"start": 25, "end": 44, "label": "PROPERTY", "value": "TSb"},
+      {"start": 22, "end": 28, "label": "QUALIFIER"},
+      {"start": 46, "end": 63, "label": "PROPERTY", "value": "YM"},
+      {"start": 64, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, пригодный для вакуумной формовки, с Tg около 100°C",
+    "entities": [
+      {"start": 47, "end": 49, "label": "PROPERTY", "value": "Tg"},
+      {"start": 56, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с повышенной энергией когезии (CED > 420) и прочностью < 55 МПа",
+    "entities": [
+      {"start": 13, "end": 31, "label": "PROPERTY", "value": "CED"},
+      {"start": 10, "end": 16, "label": "QUALIFIER"},
+      {"start": 33, "end": 36, "label": "VALUE"},
+      {"start": 41, "end": 53, "label": "PROPERTY", "value": "TSb"},
+      {"start": 56, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, не выделяющий вредных веществ при горении, LOI > 32%",
+    "entities": [
+      {"start": 57, "end": 60, "label": "PROPERTY", "value": "LOI"},
+      {"start": 64, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой стойкостью к растрескиванию и Tg > 130°C",
+    "entities": [
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 50, "end": 55, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой плотностью (0.95) и модулем упругости 3.0 ГПа",
+    "entities": [
+      {"start": 18, "end": 27, "label": "PROPERTY", "value": "rho"},
+      {"start": 29, "end": 33, "label": "VALUE"},
+      {"start": 38, "end": 55, "label": "PROPERTY", "value": "YM"},
+      {"start": 56, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с отличной адгезией к стали и модулем сдвига 1.1 ГПа",
+    "entities": [
+      {"start": 16, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 13, "end": 20, "label": "QUALIFIER"},
+      {"start": 39, "end": 54, "label": "PROPERTY", "value": "YM"},
+      {"start": 55, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на разрыв при низких температурах",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер для оптических волокон: высокая прозрачность, низкое затухание, Tg > 160°C",
+    "entities": [
+      {"start": 56, "end": 58, "label": "PROPERTY", "value": "Tg"},
+      {"start": 62, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой теплопроводностью и высокой теплоёмкостью (Cp 1.9)",
+    "entities": [
+      {"start": 22, "end": 38, "label": "PROPERTY", "value": "Cp"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 43, "end": 57, "label": "PROPERTY", "value": "Cp"},
+      {"start": 59, "end": 61, "label": "PROPERTY", "value": "Cp"},
+      {"start": 62, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с хорошей атмосферостойкостью и температурой стеклования 125°C",
+    "entities": [
+      {"start": 41, "end": 64, "label": "PROPERTY", "value": "Tg"},
+      {"start": 65, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер для мембран: высокая селективность O2/N2, проницаемость O2 ~ 40 Баррер",
+    "entities": [
+      {"start": 21, "end": 48, "label": "PROPERTY", "value": "permO2"},
+      {"start": 18, "end": 26, "label": "QUALIFIER"},
+      {"start": 68, "end": 75, "label": "PROPERTY", "value": "permO2"},
+      {"start": 78, "end": 86, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой горючестью и прочностью на разрыв < 45 МПа",
+    "entities": [
+      {"start": 18, "end": 33, "label": "PROPERTY", "value": "LOI"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 38, "end": 58, "label": "PROPERTY", "value": "TSb"},
+      {"start": 61, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой твёрдостью и модулем упругости 2.65 ГПа",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 11, "end": 17, "label": "QUALIFIER"},
+      {"start": 39, "end": 56, "label": "PROPERTY", "value": "YM"},
+      {"start": 57, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, размягчающийся при 80°C и имеющий модуль упругости 0.8 ГПа",
+    "entities": [
+      {"start": 24, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 50, "end": 54, "label": "VALUE"},
+      {"start": 65, "end": 82, "label": "PROPERTY", "value": "YM"},
+      {"start": 83, "end": 89, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной стойкостью к щелочам и Tg > 145°C",
+    "entities": [
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 50, "end": 55, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой прочностью на изгиб и температурой деструкции < 360°C",
+    "entities": [
+      {"start": 12, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 40, "end": 64, "label": "PROPERTY", "value": "Td"},
+      {"start": 67, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как нейлон 6, но с более низким влагопоглощением",
+    "entities": [
+      {"start": 31, "end": 47, "label": "PROPERTY", "value": "rho"},
+      {"start": 27, "end": 32, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с малой усадкой и высокой твёрдостью для пресс-форм",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "Xc"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 35, "end": 55, "label": "PROPERTY", "value": "TSb"},
+      {"start": 32, "end": 38, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой диэлектрической проницаемостью (2.1) и Tg > 170°C",
+    "entities": [
+      {"start": 20, "end": 51, "label": "PROPERTY", "value": "epsc"},
+      {"start": 17, "end": 22, "label": "QUALIFIER"},
+      {"start": 53, "end": 56, "label": "VALUE"},
+      {"start": 61, "end": 63, "label": "PROPERTY", "value": "Tg"},
+      {"start": 67, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который можно красить без грунта, с Tg < 95°C",
+    "entities": [
+      {"start": 48, "end": 50, "label": "PROPERTY", "value": "Tg"},
+      {"start": 54, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с хорошей прозрачностью и прочностью на разрыв 70 МПа",
+    "entities": [
+      {"start": 20, "end": 42, "label": "PROPERTY", "value": "TSb"},
+      {"start": 16, "end": 23, "label": "QUALIFIER"},
+      {"start": 47, "end": 67, "label": "PROPERTY", "value": "TSb"},
+      {"start": 68, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой ударной прочностью и плотностью 1.05 г/см³",
+    "entities": [
+      {"start": 13, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 16, "label": "QUALIFIER"},
+      {"start": 39, "end": 48, "label": "PROPERTY", "value": "rho"},
+      {"start": 49, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, не выделяющий запаха, с температурой стеклования 115°C",
+    "entities": [
+      {"start": 38, "end": 61, "label": "PROPERTY", "value": "Tg"},
+      {"start": 62, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, который можно сваривать ультразвуком, Tg > 105°C",
+    "entities": [
+      {"start": 51, "end": 53, "label": "PROPERTY", "value": "Tg"},
+      {"start": 57, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной стойкостью к УФ и кислородным индексом 27%",
+    "entities": [
+      {"start": 38, "end": 55, "label": "PROPERTY", "value": "LOI"},
+      {"start": 56, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой липкостью и модулем упругости 1.9 ГПа",
+    "entities": [
+      {"start": 15, "end": 31, "label": "PROPERTY", "value": "YM"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"},
+      {"start": 36, "end": 53, "label": "PROPERTY", "value": "YM"},
+      {"start": 54, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой прочностью на сжатие и теплостойкостью до 300°C",
+    "entities": [
+      {"start": 12, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 9, "end": 16, "label": "QUALIFIER"},
+      {"start": 39, "end": 63, "label": "PROPERTY", "value": "Td"},
+      {"start": 67, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой диэлектрической постоянной (2.0) и высокой пробивной прочностью",
+    "entities": [
+      {"start": 18, "end": 45, "label": "PROPERTY", "value": "epsc"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 47, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 65, "label": "PROPERTY", "value": "epsb"},
+      {"start": 52, "end": 58, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой гибкостью и прочностью на раздир < 12 кН/м",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "YM"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 35, "end": 55, "label": "PROPERTY", "value": "TSb"},
+      {"start": 58, "end": 65, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для пищевых контейнеров: Tg < 120°C, низкая миграция",
+    "entities": [
+      {"start": 30, "end": 32, "label": "PROPERTY", "value": "Tg"},
+      {"start": 36, "end": 40, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой твёрдостью и модулем упругости около 3.3 ГПа",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 40, "end": 57, "label": "PROPERTY", "value": "YM"},
+      {"start": 64, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, который не царапается, с твёрдостью по карандашу > 2H",
+    "entities": [
+      {"start": 44, "end": 65, "label": "PROPERTY", "value": "TSb"},
+      {"start": 69, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низким водопоглощением (< 0.5%) и Tg > 120°C",
+    "entities": [
+      {"start": 14, "end": 32, "label": "PROPERTY", "value": "rho"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 34, "end": 39, "label": "VALUE"},
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 50, "end": 55, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой стойкостью к пару и температуре деструкции < 380°C",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "Td"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 39, "end": 63, "label": "PROPERTY", "value": "Td"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с отличной маслостойкостью и прочностью на разрыв 55 МПа",
+    "entities": [
+      {"start": 20, "end": 41, "label": "PROPERTY", "value": "TSb"},
+      {"start": 17, "end": 24, "label": "QUALIFIER"},
+      {"start": 46, "end": 66, "label": "PROPERTY", "value": "TSb"},
+      {"start": 67, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой усадкой и температурой стеклования 130°C",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PROPERTY", "value": "Xc"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 39, "end": 62, "label": "PROPERTY", "value": "Tg"},
+      {"start": 63, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, стойкий к хлору, с температурой плавления 155°C",
+    "entities": [
+      {"start": 41, "end": 63, "label": "PROPERTY", "value": "Tm"},
+      {"start": 64, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер для автомобильных фар: высокая теплостойкость, прозрачность",
+    "entities": [
+      {"start": 33, "end": 47, "label": "PROPERTY", "value": "Td"},
+      {"start": 30, "end": 36, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой газопроницаемостью и плотностью около 1.32",
+    "entities": [
+      {"start": 16, "end": 34, "label": "PROPERTY", "value": "permO2"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 39, "end": 48, "label": "PROPERTY", "value": "rho"},
+      {"start": 55, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой электрической прочностью (25 кВ/мм) и LOI < 23%",
+    "entities": [
+      {"start": 14, "end": 38, "label": "PROPERTY", "value": "epsb"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 40, "end": 48, "label": "VALUE"},
+      {"start": 53, "end": 56, "label": "PROPERTY", "value": "LOI"},
+      {"start": 60, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, пригодный для нанесения покрытий, с Tg > 65°C",
+    "entities": [
+      {"start": 51, "end": 53, "label": "PROPERTY", "value": "Tg"},
+      {"start": 57, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с хорошей совместимостью с ABS и модулем упругости 2.3 ГПа",
+    "entities": [
+      {"start": 47, "end": 64, "label": "PROPERTY", "value": "YM"},
+      {"start": 65, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на разрыв в мокром состоянии",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой диэлектрической проницаемостью (2.2) и плотностью 1.10",
+    "entities": [
+      {"start": 18, "end": 49, "label": "PROPERTY", "value": "epsc"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 51, "end": 54, "label": "VALUE"},
+      {"start": 59, "end": 68, "label": "PROPERTY", "value": "rho"},
+      {"start": 69, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с отличной стойкостью к озону и Tg > 125°C",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 56, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой твёрдостью и прочностью на сжатие 85 МПа",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 40, "end": 62, "label": "PROPERTY", "value": "TSb"},
+      {"start": 63, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, как ПВХ, но с более высокой термостойкостью (Tg > 110°C)",
+    "entities": [
+      {"start": 46, "end": 60, "label": "PROPERTY", "value": "Tg"},
+      {"start": 38, "end": 46, "label": "QUALIFIER"},
+      {"start": 62, "end": 64, "label": "PROPERTY", "value": "Tg"},
+      {"start": 68, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой ползучестью и модулем упругости 2.7 ГПа",
+    "entities": [
+      {"start": 35, "end": 52, "label": "PROPERTY", "value": "YM"},
+      {"start": 53, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой износостойкостью и температурой стеклования 135°C",
+    "entities": [
+      {"start": 13, "end": 37, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 16, "label": "QUALIFIER"},
+      {"start": 42, "end": 65, "label": "PROPERTY", "value": "Tg"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для светодиодных линз: высокая прозрачность, Tg > 150°C",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 56, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с низкой теплопроводностью и плотностью меньше 1.05",
+    "entities": [
+      {"start": 16, "end": 32, "label": "PROPERTY", "value": "Cp"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 37, "end": 46, "label": "PROPERTY", "value": "rho"},
+      {"start": 53, "end": 57, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с хорошей адгезией к алюминию и модулем сдвига 1.3 ГПа",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "TSb"},
+      {"start": 16, "end": 23, "label": "QUALIFIER"},
+      {"start": 50, "end": 65, "label": "PROPERTY", "value": "YM"},
+      {"start": 66, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой прочностью на сжатие (> 100 МПа) и Tg > 190°C",
+    "entities": [
+      {"start": 14, "end": 36, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 38, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Tg"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, который не деформируется при стерилизации, Tg > 135°C",
+    "entities": [
+      {"start": 53, "end": 55, "label": "PROPERTY", "value": "Tg"},
+      {"start": 59, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с низкой гигроскопичностью и диэлектрической постоянной 2.9",
+    "entities": [
+      {"start": 14, "end": 31, "label": "PROPERTY", "value": "rho"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"},
+      {"start": 36, "end": 63, "label": "PROPERTY", "value": "epsc"},
+      {"start": 64, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, стойкий к гидролизу, с модулем упругости 2.55 ГПа",
+    "entities": [
+      {"start": 48, "end": 65, "label": "PROPERTY", "value": "YM"},
+      {"start": 66, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной прозрачностью и температурой плавления 145°C",
+    "entities": [
+      {"start": 41, "end": 63, "label": "PROPERTY", "value": "Tm"},
+      {"start": 64, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой твёрдостью и износостойкостью для подшипников",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 11, "end": 17, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой проницаемостью по N2 и высокой по O2",
+    "entities": [
+      {"start": 18, "end": 47, "label": "PROPERTY", "value": "permN2"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 51, "end": 58, "label": "PROPERTY", "value": "permO2"},
+      {"start": 48, "end": 54, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой ударной вязкостью и модулем упругости 2.0 ГПа",
+    "entities": [
+      {"start": 15, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 39, "end": 56, "label": "PROPERTY", "value": "YM"},
+      {"start": 57, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с хорошей химической стойкостью и плотностью ~1.28 г/см³",
+    "entities": [
+      {"start": 13, "end": 38, "label": "PROPERTY", "value": "Td"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 43, "end": 52, "label": "PROPERTY", "value": "rho"},
+      {"start": 55, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низким коэффициентом трения и модулем упругости 1.8 ГПа",
+    "entities": [
+      {"start": 22, "end": 46, "label": "PROPERTY", "value": "YM"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 51, "end": 68, "label": "PROPERTY", "value": "YM"},
+      {"start": 69, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для разъёмов: высокая термостойкость, низкая диэлектрическая проницаемость",
+    "entities": [
+      {"start": 25, "end": 39, "label": "PROPERTY", "value": "Td"},
+      {"start": 22, "end": 28, "label": "QUALIFIER"},
+      {"start": 41, "end": 72, "label": "PROPERTY", "value": "epsc"},
+      {"start": 38, "end": 43, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей текучестью и температурой стеклования 105°C",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "Tg"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 39, "end": 62, "label": "PROPERTY", "value": "Tg"},
+      {"start": 63, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер, негорючий, с кислородным индексом не меньше 30%",
+    "entities": [
+      {"start": 37, "end": 54, "label": "PROPERTY", "value": "LOI"},
+      {"start": 65, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с высокой прочностью на разрыв (до 75 МПа) и Tg > 140°C",
+    "entities": [
+      {"start": 18, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 40, "end": 48, "label": "VALUE"},
+      {"start": 53, "end": 55, "label": "PROPERTY", "value": "Tg"},
+      {"start": 59, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой теплоёмкостью (Cp 2.6) и плотностью 1.08",
+    "entities": [
+      {"start": 14, "end": 32, "label": "PROPERTY", "value": "Cp"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 34, "end": 36, "label": "PROPERTY", "value": "Cp"},
+      {"start": 37, "end": 40, "label": "VALUE"},
+      {"start": 45, "end": 54, "label": "PROPERTY", "value": "rho"},
+      {"start": 55, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой усадкой и модулем упругости 2.85 ГПа",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PROPERTY", "value": "Xc"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"},
+      {"start": 39, "end": 56, "label": "PROPERTY", "value": "YM"},
+      {"start": 57, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой стойкостью к кислотам и Tg > 115°C",
+    "entities": [
+      {"start": 48, "end": 50, "label": "PROPERTY", "value": "Tg"},
+      {"start": 54, "end": 59, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, который не темнеет при нагреве, с Td > 370°C",
+    "entities": [
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Td"},
+      {"start": 50, "end": 55, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с хорошей электроизоляцией и плотностью 1.03",
+    "entities": [
+      {"start": 36, "end": 45, "label": "PROPERTY", "value": "rho"},
+      {"start": 46, "end": 50, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер с высокой адгезией к поликарбонату и модулем упругости 2.4 ГПа",
+    "entities": [
+      {"start": 13, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 43, "end": 60, "label": "PROPERTY", "value": "YM"},
+      {"start": 61, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, пригодный для лазерной маркировки, с Tg > 130°C",
+    "entities": [
+      {"start": 49, "end": 51, "label": "PROPERTY", "value": "Tg"},
+      {"start": 55, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой прочностью на раздир и модулем упругости 3.4 ГПа",
+    "entities": [
+      {"start": 15, "end": 39, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 44, "end": 61, "label": "PROPERTY", "value": "YM"},
+      {"start": 62, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой теплопроводностью и высокой прозрачностью",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PROPERTY", "value": "Cp"},
+      {"start": 15, "end": 20, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с хорошей гидрофобностью и температурой плавления 170°C",
+    "entities": [
+      {"start": 43, "end": 65, "label": "PROPERTY", "value": "Tm"},
+      {"start": 66, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с низкой горючестью и модулем упругости 2.2 ГПа",
+    "entities": [
+      {"start": 16, "end": 31, "label": "PROPERTY", "value": "LOI"},
+      {"start": 13, "end": 18, "label": "QUALIFIER"},
+      {"start": 36, "end": 53, "label": "PROPERTY", "value": "YM"},
+      {"start": 54, "end": 60, "label": "VALUE"}
+    ]
+  },
+    {
+    "text": "Хочу полимер с высокой плотностью, но не больше 1.3 г/см³ и чтобы температура стеклования была низкой, это важно",
+    "entities": [
+      {"start": 15, "end": 24, "label": "PROPERTY", "value": "rho"},
+      {"start": 11, "end": 19, "label": "QUALIFIER"},
+      {"start": 36, "end": 46, "label": "VALUE"},
+      {"start": 56, "end": 79, "label": "PROPERTY", "value": "Tg"},
+      {"start": 52, "end": 58, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен материал: прочность на разрыв хотя бы 60 МПа, а модуль упругости пусть будет около 2.5 ГПа",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 46, "end": 52, "label": "VALUE"},
+      {"start": 58, "end": 75, "label": "PROPERTY", "value": "YM"},
+      {"start": 86, "end": 93, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, у которого температура плавления была бы в районе 200°C, а плотность — низкая, примерно 0.95",
+    "entities": [
+      {"start": 23, "end": 45, "label": "PROPERTY", "value": "Tm"},
+      {"start": 56, "end": 61, "label": "VALUE"},
+      {"start": 67, "end": 76, "label": "PROPERTY", "value": "rho"},
+      {"start": 64, "end": 70, "label": "QUALIFIER"},
+      {"start": 88, "end": 93, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Чтобы полимер не разрушался при нагреве до 350°C и имел кислородный индекс не менее 28%",
+    "entities": [
+      {"start": 35, "end": 57, "label": "PROPERTY", "value": "Td"},
+      {"start": 61, "end": 66, "label": "VALUE"},
+      {"start": 75, "end": 92, "label": "PROPERTY", "value": "LOI"},
+      {"start": 101, "end": 104, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Мне бы что‑нибудь с высокой твёрдостью и прочностью на сжатие > 100 МПа",
+    "entities": [
+      {"start": 22, "end": 42, "label": "PROPERTY", "value": "TSb"},
+      {"start": 17, "end": 24, "label": "QUALIFIER"},
+      {"start": 47, "end": 69, "label": "PROPERTY", "value": "TSb"},
+      {"start": 72, "end": 79, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер, у которого диэлектрическая проницаемость на 2 ГГц не выше 2.4, а Tg > 150°C",
+    "entities": [
+      {"start": 30, "end": 61, "label": "PROPERTY", "value": "epse_2.0"},
+      {"start": 68, "end": 71, "label": "VALUE"},
+      {"start": 74, "end": 76, "label": "PROPERTY", "value": "Tg"},
+      {"start": 80, "end": 85, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой усадкой и чтобы Tg была в пределах 90-110°C",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "Xc"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"},
+      {"start": 39, "end": 41, "label": "PROPERTY", "value": "Tg"},
+      {"start": 52, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной химостойкостью и чтобы температура деструкции была выше 400°C, ну и плотность около 1.2",
+    "entities": [
+      {"start": 49, "end": 73, "label": "PROPERTY", "value": "Td"},
+      {"start": 79, "end": 84, "label": "VALUE"},
+      {"start": 93, "end": 102, "label": "PROPERTY", "value": "rho"},
+      {"start": 109, "end": 113, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой теплоёмкостью (Cp примерно 2.2) и низкой теплопроводностью",
+    "entities": [
+      {"start": 15, "end": 29, "label": "PROPERTY", "value": "Cp"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 31, "end": 33, "label": "PROPERTY", "value": "Cp"},
+      {"start": 42, "end": 46, "label": "VALUE"},
+      {"start": 51, "end": 67, "label": "PROPERTY", "value": "Cp"},
+      {"start": 48, "end": 53, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Полимер, который можно стерилизовать паром (Tg > 130°C) и чтобы прочность на разрыв была не менее 80 МПа",
+    "entities": [
+      {"start": 35, "end": 37, "label": "PROPERTY", "value": "Tg"},
+      {"start": 41, "end": 46, "label": "VALUE"},
+      {"start": 59, "end": 79, "label": "PROPERTY", "value": "TSb"},
+      {"start": 89, "end": 95, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой гибкостью и чтобы модуль упругости был около 1.5 ГПа",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "YM"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 39, "end": 56, "label": "PROPERTY", "value": "YM"},
+      {"start": 63, "end": 69, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой проницаемостью по кислороду (< 3 Баррер) и высокой по CO2",
+    "entities": [
+      {"start": 20, "end": 47, "label": "PROPERTY", "value": "permO2"},
+      {"start": 17, "end": 22, "label": "QUALIFIER"},
+      {"start": 49, "end": 56, "label": "VALUE"},
+      {"start": 61, "end": 68, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 58, "end": 64, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с хорошей текучестью и температурой стеклования около 105°C",
+    "entities": [
+      {"start": 39, "end": 62, "label": "PROPERTY", "value": "Tg"},
+      {"start": 69, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с низкой горючестью и кислородным индексом > 30%",
+    "entities": [
+      {"start": 20, "end": 35, "label": "PROPERTY", "value": "LOI"},
+      {"start": 17, "end": 22, "label": "QUALIFIER"},
+      {"start": 40, "end": 57, "label": "PROPERTY", "value": "LOI"},
+      {"start": 61, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер, который бы не плавился до 300°C и имел модуль упругости ~3 ГПа",
+    "entities": [
+      {"start": 32, "end": 54, "label": "PROPERTY", "value": "Tm"},
+      {"start": 58, "end": 63, "label": "VALUE"},
+      {"start": 72, "end": 89, "label": "PROPERTY", "value": "YM"},
+      {"start": 92, "end": 97, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой твёрдостью и чтобы плотность была не больше 1.1",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 44, "end": 53, "label": "PROPERTY", "value": "rho"},
+      {"start": 64, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с низкой диэлектрической постоянной (ε < 2.2) для антенн",
+    "entities": [
+      {"start": 22, "end": 49, "label": "PROPERTY", "value": "epsc"},
+      {"start": 19, "end": 24, "label": "QUALIFIER"},
+      {"start": 51, "end": 56, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, у которого температура стеклования низкая (около 40°C) и прочность на разрыв средняя",
+    "entities": [
+      {"start": 27, "end": 50, "label": "PROPERTY", "value": "Tg"},
+      {"start": 23, "end": 28, "label": "QUALIFIER"},
+      {"start": 59, "end": 63, "label": "VALUE"},
+      {"start": 68, "end": 88, "label": "PROPERTY", "value": "TSb"},
+      {"start": 65, "end": 71, "label": "QUALIFIER"}
+    ]
+  },
+    {
+    "text": "Необходим полимер, стойкий к автоклавированию (Tg > 130°C) и обладающий высокой прочностью на разрыв (минимум 70 МПа)",
+    "entities": [
+      {"start": 50, "end": 52, "label": "PROPERTY", "value": "Tg"},
+      {"start": 55, "end": 60, "label": "VALUE"},
+      {"start": 91, "end": 111, "label": "PROPERTY", "value": "TSb"},
+      {"start": 120, "end": 126, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой усадкой, Tg около 95°C и кислородным индексом > 27%",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PROPERTY", "value": "Xc"},
+      {"start": 16, "end": 21, "label": "QUALIFIER"},
+      {"start": 36, "end": 38, "label": "PROPERTY", "value": "Tg"},
+      {"start": 45, "end": 49, "label": "VALUE"},
+      {"start": 54, "end": 71, "label": "PROPERTY", "value": "LOI"},
+      {"start": 74, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с повышенной термостойкостью (Td > 400°C) и модулем упругости не менее 2.5 ГПа",
+    "entities": [
+      {"start": 24, "end": 38, "label": "PROPERTY", "value": "Td"},
+      {"start": 19, "end": 26, "label": "QUALIFIER"},
+      {"start": 40, "end": 42, "label": "PROPERTY", "value": "Td"},
+      {"start": 45, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 72, "label": "PROPERTY", "value": "YM"},
+      {"start": 82, "end": 89, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер для медицинских трубок: биосовместимый, с модулем упругости 1.2 ГПа и Tg около 37°C",
+    "entities": [
+      {"start": 55, "end": 72, "label": "PROPERTY", "value": "YM"},
+      {"start": 73, "end": 79, "label": "VALUE"},
+      {"start": 84, "end": 86, "label": "PROPERTY", "value": "Tg"},
+      {"start": 93, "end": 97, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер, который не желтеет на солнце, с LOI > 26% и плотностью менее 1.1",
+    "entities": [
+      {"start": 51, "end": 54, "label": "PROPERTY", "value": "LOI"},
+      {"start": 58, "end": 61, "label": "VALUE"},
+      {"start": 66, "end": 75, "label": "PROPERTY", "value": "rho"},
+      {"start": 82, "end": 86, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой твёрдостью по Шору (не менее 80) и прочностью на сжатие > 90 МПа",
+    "entities": [
+      {"start": 15, "end": 35, "label": "PROPERTY", "value": "TSb"},
+      {"start": 12, "end": 18, "label": "QUALIFIER"},
+      {"start": 49, "end": 52, "label": "VALUE"},
+      {"start": 57, "end": 79, "label": "PROPERTY", "value": "TSb"},
+      {"start": 82, "end": 88, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер для 3D-печати: низкая усадка, температура стеклования 80-100°C и прочность на изгиб > 70 МПа",
+    "entities": [
+      {"start": 26, "end": 42, "label": "PROPERTY", "value": "Xc"},
+      {"start": 23, "end": 28, "label": "QUALIFIER"},
+      {"start": 44, "end": 67, "label": "PROPERTY", "value": "Tg"},
+      {"start": 68, "end": 75, "label": "VALUE"},
+      {"start": 80, "end": 99, "label": "PROPERTY", "value": "TSb"},
+      {"start": 103, "end": 109, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с отличной адгезией к металлу и Tg > 120°C",
+    "entities": [
+      {"start": 20, "end": 38, "label": "PROPERTY", "value": "Tg"},
+      {"start": 15, "end": 22, "label": "QUALIFIER"},
+      {"start": 52, "end": 54, "label": "PROPERTY", "value": "Tg"},
+      {"start": 58, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, способный работать при -60°C, с Tg не выше -70°C",
+    "entities": [
+      {"start": 43, "end": 45, "label": "PROPERTY", "value": "Tg"},
+      {"start": 53, "end": 58, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для разделения газов: высокая проницаемость по CO2, низкая по CH4",
+    "entities": [
+      {"start": 28, "end": 55, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 24, "end": 31, "label": "QUALIFIER"},
+      {"start": 57, "end": 64, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 54, "end": 59, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с отличной химстойкостью и плотностью ~1.22 г/см³",
+    "entities": [
+      {"start": 16, "end": 41, "label": "PROPERTY", "value": "Td"},
+      {"start": 13, "end": 20, "label": "QUALIFIER"},
+      {"start": 46, "end": 55, "label": "PROPERTY", "value": "rho"},
+      {"start": 58, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Полимер для мембран: высокая селективность O2/N2, проницаемость по O2 ~ 45 Баррер",
+    "entities": [
+      {"start": 21, "end": 48, "label": "PROPERTY", "value": "permO2"},
+      {"start": 18, "end": 25, "label": "QUALIFIER"},
+      {"start": 66, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с минимальной усадкой и температурой стеклования 105°C",
+    "entities": [
+      {"start": 20, "end": 36, "label": "PROPERTY", "value": "Xc"},
+      {"start": 16, "end": 25, "label": "QUALIFIER"},
+      {"start": 41, "end": 64, "label": "PROPERTY", "value": "Tg"},
+      {"start": 65, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с отличной стойкостью к УФ и кислородным индексом 28%",
+    "entities": [
+      {"start": 36, "end": 53, "label": "PROPERTY", "value": "LOI"},
+      {"start": 54, "end": 57, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, пригодный для лазерной сварки: оптическая прозрачность > 85%, Tg > 125°C",
+    "entities": [
+      {"start": 51, "end": 71, "label": "PROPERTY", "value": "Tg"},
+      {"start": 74, "end": 77, "label": "VALUE"},
+      {"start": 79, "end": 81, "label": "PROPERTY", "value": "Tg"},
+      {"start": 85, "end": 90, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с высокой стойкостью к кислотам и Tg > 140°C",
+    "entities": [
+      {"start": 15, "end": 40, "label": "PROPERTY", "value": "Td"},
+      {"start": 12, "end": 19, "label": "QUALIFIER"},
+      {"start": 44, "end": 46, "label": "PROPERTY", "value": "Tg"},
+      {"start": 50, "end": 55, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с высокой электроизоляцией и диэлектрической проницаемостью 2.9",
+    "entities": [
+      {"start": 14, "end": 31, "label": "PROPERTY", "value": "epsb"},
+      {"start": 10, "end": 17, "label": "QUALIFIER"},
+      {"start": 36, "end": 66, "label": "PROPERTY", "value": "epsc"},
+      {"start": 67, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с хорошей текучестью расплава и температурой стеклования 115°C",
+    "entities": [
+      {"start": 38, "end": 61, "label": "PROPERTY", "value": "Tg"},
+      {"start": 62, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер, который не трескается при изгибе, с модулем упругости 2.1 ГПа",
+    "entities": [
+      {"start": 54, "end": 71, "label": "PROPERTY", "value": "YM"},
+      {"start": 72, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер для разъёмов: высокая термостойкость (Td > 380°C) и низкая диэлектрическая постоянная (< 2.5)",
+    "entities": [
+      {"start": 30, "end": 44, "label": "PROPERTY", "value": "Td"},
+      {"start": 26, "end": 32, "label": "QUALIFIER"},
+      {"start": 46, "end": 48, "label": "PROPERTY", "value": "Td"},
+      {"start": 51, "end": 56, "label": "VALUE"},
+      {"start": 61, "end": 92, "label": "PROPERTY", "value": "epsc"},
+      {"start": 93, "end": 98, "label": "VALUE"}
+    ]
+  },
+    {
+    "text": "Нужен полимер с групповой энергией примерно 4.0 и низкой энергией связей",
+    "entities": [
+      {"start": 18, "end": 35, "label": "PROPERTY", "value": "Egc"},
+      {"start": 44, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 69, "label": "PROPERTY", "value": "Egb"},
+      {"start": 49, "end": 54, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с высокой внутримолекулярной энергией, значением около 3.5",
+    "entities": [
+      {"start": 20, "end": 49, "label": "PROPERTY", "value": "Eib"},
+      {"start": 16, "end": 23, "label": "QUALIFIER"},
+      {"start": 58, "end": 62, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с когезионной плотностью порядка 130 и ионизационной энергией 6.0",
+    "entities": [
+      {"start": 20, "end": 41, "label": "PROPERTY", "value": "CED"},
+      {"start": 49, "end": 52, "label": "VALUE"},
+      {"start": 57, "end": 78, "label": "PROPERTY", "value": "Ei"},
+      {"start": 79, "end": 82, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с электронным сродством около 1.5 и энергией атомизации порядка -6.0",
+    "entities": [
+      {"start": 14, "end": 33, "label": "PROPERTY", "value": "Eea"},
+      {"start": 40, "end": 43, "label": "VALUE"},
+      {"start": 48, "end": 68, "label": "PROPERTY", "value": "Eat"},
+      {"start": 75, "end": 79, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с углеродным числом не менее 2 и количеством электронов около 1.6",
+    "entities": [
+      {"start": 15, "end": 30, "label": "PROPERTY", "value": "nc"},
+      {"start": 40, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 67, "label": "PROPERTY", "value": "ne"},
+      {"start": 74, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер со степенью кристалличности около 40% и плотностью сшивки 30",
+    "entities": [
+      {"start": 17, "end": 41, "label": "PROPERTY", "value": "Xc"},
+      {"start": 48, "end": 51, "label": "VALUE"},
+      {"start": 56, "end": 72, "label": "PROPERTY", "value": "Xe"},
+      {"start": 73, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с диэлектрической постоянной 3.5 и ДП при 2 ГГц не более 3.8",
+    "entities": [
+      {"start": 22, "end": 49, "label": "PROPERTY", "value": "epsc"},
+      {"start": 50, "end": 53, "label": "VALUE"},
+      {"start": 58, "end": 71, "label": "PROPERTY", "value": "epse_2.0"},
+      {"start": 79, "end": 82, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с эпсилон на 3 ГГц около 3.6 и ДП при 4 ГГц примерно 3.5",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PROPERTY", "value": "epse_3.0"},
+      {"start": 41, "end": 44, "label": "VALUE"},
+      {"start": 49, "end": 62, "label": "PROPERTY", "value": "epse_4.0"},
+      {"start": 70, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с диэлектрической проницаемостью на 5 ГГц равной 3.4 и на 6 ГГц 3.3",
+    "entities": [
+      {"start": 14, "end": 46, "label": "PROPERTY", "value": "epse_5.0"},
+      {"start": 53, "end": 56, "label": "VALUE"},
+      {"start": 61, "end": 77, "label": "PROPERTY", "value": "epse_6.0"},
+      {"start": 78, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с ДП при 7 ГГц порядка 3.3 и ДП при 9 ГГц около 3.1",
+    "entities": [
+      {"start": 15, "end": 28, "label": "PROPERTY", "value": "epse_7.0"},
+      {"start": 35, "end": 38, "label": "VALUE"},
+      {"start": 43, "end": 56, "label": "PROPERTY", "value": "epse_9.0"},
+      {"start": 63, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с ДП при 15 ГГц меньше 2.6 и электрической прочностью 12 кВ/мм",
+    "entities": [
+      {"start": 18, "end": 32, "label": "PROPERTY", "value": "epse_15.0"},
+      {"start": 38, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 68, "label": "PROPERTY", "value": "epsb"},
+      {"start": 69, "end": 76, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с разрывной прочностью 85 МПа и пределом текучести 70 МПа",
+    "entities": [
+      {"start": 20, "end": 40, "label": "PROPERTY", "value": "TSb"},
+      {"start": 41, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 70, "label": "PROPERTY", "value": "TSy"},
+      {"start": 71, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с модулем упругости 2.8 ГПа и прочностью при разрыве не менее 80 МПа",
+    "entities": [
+      {"start": 14, "end": 31, "label": "PROPERTY", "value": "YM"},
+      {"start": 32, "end": 38, "label": "VALUE"},
+      {"start": 43, "end": 65, "label": "PROPERTY", "value": "TSb"},
+      {"start": 75, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с пермеабельностью по CH4 примерно 0.8 и проницаемостью для CO2 около 12",
+    "entities": [
+      {"start": 16, "end": 39, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 48, "end": 51, "label": "VALUE"},
+      {"start": 56, "end": 78, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 85, "end": 87, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с проницаемостью для водорода около 26 и для гелия 23",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "permH2"},
+      {"start": 52, "end": 54, "label": "VALUE"},
+      {"start": 59, "end": 68, "label": "PROPERTY", "value": "permHe"},
+      {"start": 69, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с пермеабельностью по O2 около 3.1 и по N2 0.8",
+    "entities": [
+      {"start": 20, "end": 42, "label": "PROPERTY", "value": "permO2"},
+      {"start": 49, "end": 52, "label": "VALUE"},
+      {"start": 57, "end": 66, "label": "PROPERTY", "value": "permN2"},
+      {"start": 67, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с удельной теплоемкостью 1.25 и температурой деструкции около 720",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "Cp"},
+      {"start": 35, "end": 39, "label": "VALUE"},
+      {"start": 44, "end": 68, "label": "PROPERTY", "value": "Td"},
+      {"start": 75, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с точкой плавления около 430 и температурой стеклования 380",
+    "entities": [
+      {"start": 15, "end": 32, "label": "PROPERTY", "value": "Tm"},
+      {"start": 39, "end": 42, "label": "VALUE"},
+      {"start": 47, "end": 70, "label": "PROPERTY", "value": "Tg"},
+      {"start": 71, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с удельной массой 1.15 и кислородным индексом 26",
+    "entities": [
+      {"start": 20, "end": 33, "label": "PROPERTY", "value": "rho"},
+      {"start": 34, "end": 38, "label": "VALUE"},
+      {"start": 43, "end": 60, "label": "PROPERTY", "value": "LOI"},
+      {"start": 61, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Хочу полимер с пониженной групповой энергией (около 3.5) и высокой теплоемкостью",
+    "entities": [
+      {"start": 16, "end": 43, "label": "PROPERTY", "value": "Egc"},
+      {"start": 11, "end": 20, "label": "QUALIFIER"},
+      {"start": 51, "end": 54, "label": "VALUE"},
+      {"start": 60, "end": 73, "label": "PROPERTY", "value": "Cp"},
+      {"start": 56, "end": 63, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Мне бы полимер с значительным вкладом связей (Egb около 3.8) и низкой плотностью сшивки",
+    "entities": [
+      {"start": 17, "end": 38, "label": "PROPERTY", "value": "Egb"},
+      {"start": 12, "end": 23, "label": "QUALIFIER"},
+      {"start": 46, "end": 49, "label": "VALUE"},
+      {"start": 55, "end": 72, "label": "PROPERTY", "value": "Xe"},
+      {"start": 51, "end": 57, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с энергией внутренних связей на уровне 3.7 и когезионной плотностью 100",
+    "entities": [
+      {"start": 14, "end": 40, "label": "PROPERTY", "value": "Eib"},
+      {"start": 49, "end": 52, "label": "VALUE"},
+      {"start": 57, "end": 78, "label": "PROPERTY", "value": "CED"},
+      {"start": 79, "end": 82, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с потенциалом ионизации 5.9 и электронным сродством 1.2",
+    "entities": [
+      {"start": 20, "end": 41, "label": "PROPERTY", "value": "Ei"},
+      {"start": 42, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 69, "label": "PROPERTY", "value": "Eea"},
+      {"start": 70, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с энергией атомизации -6.1 и числом атомов углерода 2",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "Eat"},
+      {"start": 35, "end": 39, "label": "VALUE"},
+      {"start": 44, "end": 66, "label": "PROPERTY", "value": "nc"},
+      {"start": 67, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с количеством электронов 1.55 и степенью кристалличности 35%",
+    "entities": [
+      {"start": 20, "end": 40, "label": "PROPERTY", "value": "ne"},
+      {"start": 41, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 74, "label": "PROPERTY", "value": "Xc"},
+      {"start": 75, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с пониженной плотностью сшивки (около 32) и высокой удельной теплоемкостью",
+    "entities": [
+      {"start": 15, "end": 36, "label": "PROPERTY", "value": "Xe"},
+      {"start": 11, "end": 19, "label": "QUALIFIER"},
+      {"start": 44, "end": 46, "label": "VALUE"},
+      {"start": 52, "end": 76, "label": "PROPERTY", "value": "Cp"},
+      {"start": 48, "end": 54, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с диэлектрической постоянной 4.2 и ДП на 1.78 ГГц равной 4.0",
+    "entities": [
+      {"start": 16, "end": 43, "label": "PROPERTY", "value": "epsc"},
+      {"start": 44, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 71, "label": "PROPERTY", "value": "epse_1.78"},
+      {"start": 78, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с эпсилон на 2 ГГц около 3.9 и ДП на 3 ГГц 3.7",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PROPERTY", "value": "epse_2.0"},
+      {"start": 41, "end": 44, "label": "VALUE"},
+      {"start": 49, "end": 62, "label": "PROPERTY", "value": "epse_3.0"},
+      {"start": 63, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с ДП на 4 ГГц 3.6 и электрической прочностью 10 кВ/мм",
+    "entities": [
+      {"start": 18, "end": 31, "label": "PROPERTY", "value": "epse_4.0"},
+      {"start": 32, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 62, "label": "PROPERTY", "value": "epsb"},
+      {"start": 63, "end": 70, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с разрывной прочностью 90 МПа и модулем эластичности 2.5 ГПа",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 35, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 65, "label": "PROPERTY", "value": "YM"},
+      {"start": 66, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с пределом текучести 72 МПа и прочностью на разрыв не менее 85",
+    "entities": [
+      {"start": 15, "end": 33, "label": "PROPERTY", "value": "TSy"},
+      {"start": 34, "end": 40, "label": "VALUE"},
+      {"start": 45, "end": 65, "label": "PROPERTY", "value": "TSb"},
+      {"start": 75, "end": 77, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с пермеабельностью по CH4 0.75 и проницаемостью для азота 0.9",
+    "entities": [
+      {"start": 20, "end": 43, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 44, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 76, "label": "PROPERTY", "value": "permN2"},
+      {"start": 77, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с проницаемостью для гелия 22 и для водорода 25",
+    "entities": [
+      {"start": 20, "end": 44, "label": "PROPERTY", "value": "permHe"},
+      {"start": 45, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 68, "label": "PROPERTY", "value": "permH2"},
+      {"start": 69, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой проницаемостью по O2 (около 3.0) и высокой для CO2",
+    "entities": [
+      {"start": 15, "end": 43, "label": "PROPERTY", "value": "permO2"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 51, "end": 54, "label": "VALUE"},
+      {"start": 60, "end": 74, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 56, "end": 63, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с температурой деструкции не ниже 730 и теплоемкостью 1.22",
+    "entities": [
+      {"start": 16, "end": 40, "label": "PROPERTY", "value": "Td"},
+      {"start": 49, "end": 52, "label": "VALUE"},
+      {"start": 57, "end": 70, "label": "PROPERTY", "value": "Cp"},
+      {"start": 71, "end": 75, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с точкой плавления около 420 и температурой стеклования 370",
+    "entities": [
+      {"start": 20, "end": 37, "label": "PROPERTY", "value": "Tm"},
+      {"start": 44, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 75, "label": "PROPERTY", "value": "Tg"},
+      {"start": 76, "end": 79, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с объемной плотностью 1.25 и кислородным индексом 27",
+    "entities": [
+      {"start": 20, "end": 36, "label": "PROPERTY", "value": "rho"},
+      {"start": 37, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 63, "label": "PROPERTY", "value": "LOI"},
+      {"start": 64, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с низкой энергией группового вклада и умеренной энергией связей",
+    "entities": [
+      {"start": 14, "end": 40, "label": "PROPERTY", "value": "Egc"},
+      {"start": 11, "end": 16, "label": "QUALIFIER"},
+      {"start": 45, "end": 62, "label": "PROPERTY", "value": "Egb"},
+      {"start": 41, "end": 49, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с большим вкладом внутренней энергии (около 3.9) и высокой когезионной плотностью",
+    "entities": [
+      {"start": 16, "end": 41, "label": "PROPERTY", "value": "Eib"},
+      {"start": 11, "end": 17, "label": "QUALIFIER"},
+      {"start": 49, "end": 52, "label": "VALUE"},
+      {"start": 58, "end": 79, "label": "PROPERTY", "value": "CED"},
+      {"start": 54, "end": 61, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с выдающейся ионизационной энергией (6.2) и низким сродством к электрону",
+    "entities": [
+      {"start": 20, "end": 46, "label": "PROPERTY", "value": "Ei"},
+      {"start": 15, "end": 26, "label": "QUALIFIER"},
+      {"start": 48, "end": 51, "label": "VALUE"},
+      {"start": 57, "end": 78, "label": "PROPERTY", "value": "Eea"},
+      {"start": 53, "end": 58, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с атомизационной энергией -6.2 и углеродным числом 1.9",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "Eat"},
+      {"start": 46, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 70, "label": "PROPERTY", "value": "nc"},
+      {"start": 71, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с электронным числом 1.6 и степенью кристалличности 42%",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "ne"},
+      {"start": 31, "end": 34, "label": "VALUE"},
+      {"start": 39, "end": 63, "label": "PROPERTY", "value": "Xc"},
+      {"start": 64, "end": 67, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с малой плотностью сшивки (28) и высокой диэлектрической постоянной",
+    "entities": [
+      {"start": 17, "end": 36, "label": "PROPERTY", "value": "Xe"},
+      {"start": 13, "end": 17, "label": "QUALIFIER"},
+      {"start": 38, "end": 40, "label": "VALUE"},
+      {"start": 46, "end": 73, "label": "PROPERTY", "value": "epsc"},
+      {"start": 42, "end": 49, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с ДП при 1.78 ГГц около 4.1 и эпсилон на 4 ГГц 3.6",
+    "entities": [
+      {"start": 18, "end": 37, "label": "PROPERTY", "value": "epse_1.78"},
+      {"start": 44, "end": 47, "label": "VALUE"},
+      {"start": 52, "end": 68, "label": "PROPERTY", "value": "epse_4.0"},
+      {"start": 69, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с пробойной напряженностью 11 и ДП на 5 ГГц 3.5",
+    "entities": [
+      {"start": 20, "end": 43, "label": "PROPERTY", "value": "epsb"},
+      {"start": 44, "end": 46, "label": "VALUE"},
+      {"start": 51, "end": 64, "label": "PROPERTY", "value": "epse_5.0"},
+      {"start": 65, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с разрывной прочностью 88 МПа и модулем Юнга 2.6 ГПа",
+    "entities": [
+      {"start": 14, "end": 34, "label": "PROPERTY", "value": "TSb"},
+      {"start": 35, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 58, "label": "PROPERTY", "value": "YM"},
+      {"start": 59, "end": 65, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с напряжением текучести 68 МПа и прочностью на разрыв не менее 82",
+    "entities": [
+      {"start": 15, "end": 36, "label": "PROPERTY", "value": "TSy"},
+      {"start": 37, "end": 43, "label": "VALUE"},
+      {"start": 48, "end": 68, "label": "PROPERTY", "value": "TSb"},
+      {"start": 78, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с пермеабельностью по метану 0.7 и проницаемостью для CO2 13",
+    "entities": [
+      {"start": 20, "end": 46, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 47, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 77, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 78, "end": 80, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с проницаемостью для водорода 27 и гелия 24",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "permH2"},
+      {"start": 46, "end": 48, "label": "VALUE"},
+      {"start": 53, "end": 60, "label": "PROPERTY", "value": "permHe"},
+      {"start": 61, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с пермеабельностью по O2 примерно 3.5 и по N2 0.85",
+    "entities": [
+      {"start": 14, "end": 36, "label": "PROPERTY", "value": "permO2"},
+      {"start": 43, "end": 46, "label": "VALUE"},
+      {"start": 51, "end": 60, "label": "PROPERTY", "value": "permN2"},
+      {"start": 61, "end": 64, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с теплоемкостью 1.28 и температурой деструкции около 750",
+    "entities": [
+      {"start": 15, "end": 28, "label": "PROPERTY", "value": "Cp"},
+      {"start": 29, "end": 33, "label": "VALUE"},
+      {"start": 38, "end": 62, "label": "PROPERTY", "value": "Td"},
+      {"start": 69, "end": 72, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с температурой плавления 440 и температурой стеклования 390",
+    "entities": [
+      {"start": 20, "end": 42, "label": "PROPERTY", "value": "Tm"},
+      {"start": 43, "end": 46, "label": "VALUE"},
+      {"start": 51, "end": 74, "label": "PROPERTY", "value": "Tg"},
+      {"start": 75, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с удельной массой 1.05 и индексом горючести 24",
+    "entities": [
+      {"start": 20, "end": 33, "label": "PROPERTY", "value": "rho"},
+      {"start": 34, "end": 38, "label": "VALUE"},
+      {"start": 43, "end": 60, "label": "PROPERTY", "value": "LOI"},
+      {"start": 61, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с групповой энергией 4.2 и энергией связей 3.9",
+    "entities": [
+      {"start": 14, "end": 31, "label": "PROPERTY", "value": "Egc"},
+      {"start": 32, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 57, "label": "PROPERTY", "value": "Egb"},
+      {"start": 58, "end": 61, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с внутримолекулярной энергией 3.8 и когезионной плотностью 110",
+    "entities": [
+      {"start": 16, "end": 44, "label": "PROPERTY", "value": "Eib"},
+      {"start": 45, "end": 48, "label": "VALUE"},
+      {"start": 53, "end": 74, "label": "PROPERTY", "value": "CED"},
+      {"start": 75, "end": 78, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с ионизационной энергией 6.1 и сродством к электрону 1.4",
+    "entities": [
+      {"start": 20, "end": 41, "label": "PROPERTY", "value": "Ei"},
+      {"start": 42, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 70, "label": "PROPERTY", "value": "Eea"},
+      {"start": 71, "end": 74, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с атомизационной энергией -6.0 и числом атомов углерода 2.1",
+    "entities": [
+      {"start": 20, "end": 45, "label": "PROPERTY", "value": "Eat"},
+      {"start": 46, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 77, "label": "PROPERTY", "value": "nc"},
+      {"start": 78, "end": 81, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с электронным числом 1.65 и степенью кристалличности 38%",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "ne"},
+      {"start": 31, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 64, "label": "PROPERTY", "value": "Xc"},
+      {"start": 65, "end": 68, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с плотностью сшивки 34 и диэлектрической постоянной 4.5",
+    "entities": [
+      {"start": 16, "end": 34, "label": "PROPERTY", "value": "Xe"},
+      {"start": 35, "end": 37, "label": "VALUE"},
+      {"start": 42, "end": 69, "label": "PROPERTY", "value": "epsc"},
+      {"start": 70, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с ДП на 6 ГГц около 3.2 и эпсилон на 7 ГГц 3.2",
+    "entities": [
+      {"start": 18, "end": 31, "label": "PROPERTY", "value": "epse_6.0"},
+      {"start": 38, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 62, "label": "PROPERTY", "value": "epse_7.0"},
+      {"start": 63, "end": 66, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с ДП на 9 ГГц 3.0 и электрической прочностью 13",
+    "entities": [
+      {"start": 18, "end": 31, "label": "PROPERTY", "value": "epse_9.0"},
+      {"start": 32, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 62, "label": "PROPERTY", "value": "epsb"},
+      {"start": 63, "end": 65, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с ДП на 15 ГГц не более 2.5 и модулем Юнга 2.3 ГПа",
+    "entities": [
+      {"start": 14, "end": 28, "label": "PROPERTY", "value": "epse_15.0"},
+      {"start": 36, "end": 39, "label": "VALUE"},
+      {"start": 44, "end": 56, "label": "PROPERTY", "value": "YM"},
+      {"start": 57, "end": 63, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с прочностью при разрыве 80 МПа и модулем эластичности 2.4 ГПа",
+    "entities": [
+      {"start": 16, "end": 38, "label": "PROPERTY", "value": "TSb"},
+      {"start": 39, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 69, "label": "PROPERTY", "value": "YM"},
+      {"start": 70, "end": 76, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с пределом текучести 75 МПа и разрывной прочностью 82",
+    "entities": [
+      {"start": 20, "end": 38, "label": "PROPERTY", "value": "TSy"},
+      {"start": 39, "end": 45, "label": "VALUE"},
+      {"start": 50, "end": 70, "label": "PROPERTY", "value": "TSb"},
+      {"start": 71, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с пермеабельностью по метану 0.82 и проницаемостью для азота 0.95",
+    "entities": [
+      {"start": 20, "end": 46, "label": "PROPERTY", "value": "permCH4"},
+      {"start": 47, "end": 50, "label": "VALUE"},
+      {"start": 55, "end": 79, "label": "PROPERTY", "value": "permN2"},
+      {"start": 80, "end": 83, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с проницаемостью для гелия 23 и водорода 26",
+    "entities": [
+      {"start": 14, "end": 38, "label": "PROPERTY", "value": "permHe"},
+      {"start": 39, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 62, "label": "PROPERTY", "value": "permH2"},
+      {"start": 63, "end": 65, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с низкой пермеабельностью по O2 (2.9) и высокой по CO2",
+    "entities": [
+      {"start": 16, "end": 45, "label": "PROPERTY", "value": "permO2"},
+      {"start": 12, "end": 17, "label": "QUALIFIER"},
+      {"start": 47, "end": 50, "label": "VALUE"},
+      {"start": 56, "end": 70, "label": "PROPERTY", "value": "permCO2"},
+      {"start": 52, "end": 59, "label": "QUALIFIER"}
+    ]
+  },
+  {
+    "text": "Подберите полимер с теплоемкостью 1.30 и температурой деструкции 740",
+    "entities": [
+      {"start": 20, "end": 33, "label": "PROPERTY", "value": "Cp"},
+      {"start": 34, "end": 38, "label": "VALUE"},
+      {"start": 43, "end": 67, "label": "PROPERTY", "value": "Td"},
+      {"start": 68, "end": 71, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Требуется полимер с точкой плавления 450 и температурой стеклования 400",
+    "entities": [
+      {"start": 20, "end": 37, "label": "PROPERTY", "value": "Tm"},
+      {"start": 38, "end": 41, "label": "VALUE"},
+      {"start": 46, "end": 69, "label": "PROPERTY", "value": "Tg"},
+      {"start": 70, "end": 73, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Ищу полимер с объемной плотностью 1.18 и кислородным индексом 28",
+    "entities": [
+      {"start": 14, "end": 30, "label": "PROPERTY", "value": "rho"},
+      {"start": 31, "end": 35, "label": "VALUE"},
+      {"start": 40, "end": 57, "label": "PROPERTY", "value": "LOI"},
+      {"start": 58, "end": 60, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "Нужен полимер с высокой теплостойкостью и низкой плотностью (менее 1 г/см³)",
+    "entities": [
+      {"start": 15, "end": 29, "label": "PROPERTY", "value": "Td"},
+      {"start": 11, "end": 18, "label": "QUALIFIER"},
+      {"start": 34, "end": 43, "label": "PROPERTY", "value": "rho"},
+      {"start": 45, "end": 55, "label": "VALUE"}
+    ]
+  }
+]
