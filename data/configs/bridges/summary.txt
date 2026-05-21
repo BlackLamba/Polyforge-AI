@@ -1,8 +1,8 @@
 Оценено 5 полимеров
-Запрос: Нужен полимер: температура плавления около 430 К, плотность не более 1.15 г/см³, модуль Юнга не менее 1800 МПа, проницаемость для CO2 порядка 50 Баррер, кислородный индекс от 25 до 35
+Запрос: запрос из моста (без meta)
 
-1. [*]c1ccc(SC(=O)c2ccc(S(=O)(=O)c3ccc(-c4ccc5c(c4)C(=O)N([*])C5=O)cc3)cc2)cc1Oc1ccccc1 – Score: 0.6981 (Realism: 0.6981)
-2. [*]Nc1cc(-c2cc(C3CCC(N4C(=O)c5ccc(N6C(=O)c7ccc(S[*])cc7C6=O)cc5C4=O)CC3)ccc2C)ccc1C – Score: 0.5385 (Realism: 0.5385)
-3. [*]Oc1cc([*])cc(-c2ccc(S(=O)(=O)c3ccc(N4C(=O)c5ccc(-c6ccccc6C)cc5C4=O)cc3)cc2)c1 – Score: 0.0220 (Realism: 0.0220)
-4. [*]Oc1ccc2c(c1)C(=O)N(c1cccc(-c3ccc(S(=O)(=O)c4ccc(C5CCC(c6ccc([*])cc6)CC5)cc4)cc3)c1)C2=O – Score: 0.0176 (Realism: 0.0176)
-5. [*]c1nc(-c2ccc(P(=O)(c3ccccc3)c3ccc(-c4ccc5c(c4)C(=O)N([*])C5=O)cc3)cc2)nc(-c2ccc(N=Nc3ccc(OCCCCCCCCCCCCCCC)cc3)cc2)n1 – Score: 0.0088 (Realism: 0.0088)
+1. [*]c1ccc(SC(=O)c2ccc(S(=O)(=O)c3ccc(-c4ccc5c(c4)C(=O)N([*])C5=O)cc3)cc2)cc1Oc1ccccc1 – Score: 0.1780 (Realism: 0.6981)
+2. [*]Nc1cc(-c2cc(C3CCC(N4C(=O)c5ccc(N6C(=O)c7ccc(S[*])cc7C6=O)cc5C4=O)CC3)ccc2C)ccc1C – Score: 0.1373 (Realism: 0.5385)
+3. [*]Oc1cc([*])cc(-c2ccc(S(=O)(=O)c3ccc(N4C(=O)c5ccc(-c6ccccc6C)cc5C4=O)cc3)cc2)c1 – Score: 0.0056 (Realism: 0.0220)
+4. [*]Oc1ccc2c(c1)C(=O)N(c1cccc(-c3ccc(S(=O)(=O)c4ccc(C5CCC(c6ccc([*])cc6)CC5)cc4)cc3)c1)C2=O – Score: 0.0045 (Realism: 0.0176)
+5. [*]c1nc(-c2ccc(P(=O)(c3ccccc3)c3ccc(-c4ccc5c(c4)C(=O)N([*])C5=O)cc3)cc2)nc(-c2ccc(N=Nc3ccc(OCCCCCCCCCCCCCCC)cc3)cc2)n1 – Score: 0.0022 (Realism: 0.0088)

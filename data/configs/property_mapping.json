@@ -6,7 +6,6 @@
         "CED": "Cohesive Energy Density (J/cm³)",
         "Ei": "Ionization Energy (eV)",
         "Eea": "Electron Affinity (eV)",
-        "Eat": "Atomization Energy (kJ/mol)",
         "nc": "Number of Carbon Atoms",
         "ne": "Number of Electrons",
         "Xc": "Crystallinity Index (%)",
